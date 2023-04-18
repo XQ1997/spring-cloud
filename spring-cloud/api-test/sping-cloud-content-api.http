@@ -1,0 +1,90 @@
+### 课程查询接口
+POST {{content_host}}/content/course/list?pageNo=1&pageSize=5
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "",
+  "publishStatus": ""
+}
+
+<> 2023-03-11T094141.200.json
+
+###课程分类接口
+GET {{content_host}}/content/course-category/tree-nodes
+Content-Type: application/json
+
+### 创建课程
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 0, "originalPrice":0, "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "", "teachmode": "200002", "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "",
+  "objectives": ""
+}
+
+### 查询课程计划树型结构
+GET {{content_host}}/content/teachplan/117/tree-nodes
+Content-Type: application/json
+
+### 新增课程计划--章
+POST {{content_host}}/content/teachplan
+Content-Type: application/json
+
+{
+  "id": 284,
+"courseId" : 74,
+"parentid": 0,
+"grade" : 1,
+"pname" : "新章名称 [点击修改]"
+}
+
+### 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划
+POST {{content_host}}/content/teachplan
+Content-Type: application/json
+
+{
+"courseId" : 74,
+"parentid": 247,
+"grade" : 2,
+"pname" : "小节名称 [点击修改]"
+}
+
+### 课程课程计划,需要从数据库找到修改的课程计划id
+POST {{content_host}}/content/teachplan
+Content-Type: application/json
+
+{
+"changeDate" : null, "courseId" : 22, "cousePubId" : null, "createDate" : null, "ctlBarShow" : false, "ctlEditTitle" : true, "endTime" : null, "grade" : "2",
+"isPreview" : "1",
+"mediaType" : "", "orderby" : 1,
+"parentid" : 237, "pname" : "第1节修改名称", "startTime" : null,
+"status" : null, "teachPlanId" : 240
+}
+
+### 课程计划绑定视频
+POST {{media_host}}/media/teachplan/association/media
+Content-Type: application/json
+
+{
+  "mediaId": "",
+  "fileName": "",
+  "teachplanId": ""
+}
+
+### 课程发布
+POST {{content_host}}/content/coursepublish/2
+
+### 查询课程发布信息
+GET {{content_host}}/content/r/coursepublish/2
