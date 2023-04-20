@@ -32,6 +32,9 @@
         <guava.version>27.1-jre</guava.version>
         <xxl-job-core.version>2.3.1</xxl-job-core.version>
         <swagger-annotations.version>1.5.20</swagger-annotations.version>
+        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <swagger-models.version>1.5.22</swagger-models.version>
+        <swagger-bootstrap-ui.version>1.9.6</swagger-bootstrap-ui.version>
         <commons-lang3.version>3.10</commons-lang3.version>
         <okhttp.version>4.9.3</okhttp.version>
         <swagger-spring-boot-starter.version>1.9.0.RELEASE</swagger-spring-boot-starter.version>
@@ -93,6 +96,23 @@
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-annotations</artifactId>
                 <version>${swagger-annotations.version}</version>
+            </dependency>
+            <!-- 引入Swagger2依赖 -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+            <!--https://blog.csdn.net/u013408059/article/details/123547029-->
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger-models.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>swagger-bootstrap-ui</artifactId>
+                <version>${swagger-bootstrap-ui.version}</version>
             </dependency>
             <!-- Servlet 容器管理 -->
             <dependency>

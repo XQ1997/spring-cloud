@@ -13,7 +13,6 @@
     <description>spring-cloud-base</description>
 
     <dependencies>
-
         <!-- 日志相关配置 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

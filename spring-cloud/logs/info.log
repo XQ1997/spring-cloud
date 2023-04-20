@@ -1,0 +1,108 @@
+2023-04-20 10:26:28,590 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 10:26:28,590 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 10:26:28,596 INFO [http-nio-63040-exec-1][FrameworkServlet.java:521] - Initializing Servlet 'dispatcherServlet'
+2023-04-20 10:26:28,596 INFO [http-nio-63040-exec-1][FrameworkServlet.java:521] - Initializing Servlet 'dispatcherServlet'
+2023-04-20 10:26:28,605 INFO [http-nio-63040-exec-1][FrameworkServlet.java:543] - Completed initialization in 9 ms
+2023-04-20 10:26:28,605 INFO [http-nio-63040-exec-1][FrameworkServlet.java:543] - Completed initialization in 9 ms
+2023-04-20 10:26:28,829 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-04-20 10:26:28,829 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-04-20 10:26:28,845 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-04-20 10:26:28,845 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-04-20 10:26:28,870 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:28,870 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:28,877 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-04-20 10:26:28,877 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-04-20 10:26:28,878 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-04-20 10:26:28,878 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-04-20 10:26:28,885 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 10
+2023-04-20 10:26:28,885 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 10
+2023-04-20 10:26:43,079 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category p where id= ? union all select t.* from course_category t inner join t1 on t1.id = t.parentid ) select * from t1 order by t1.id, t1.orderby
+2023-04-20 10:26:43,079 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category p where id= ? union all select t.* from course_category t inner join t1 on t1.id = t.parentid ) select * from t1 order by t1.id, t1.orderby
+2023-04-20 10:26:43,081 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-20 10:26:43,081 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-20 10:26:43,091 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:43,091 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:43,111 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:43,111 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:43,114 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,114 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,116 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:43,116 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:43,116 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:43,116 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:43,124 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,124 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,126 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 144
+2023-04-20 10:26:43,126 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 144
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1-6-1(String)
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1-6-1(String)
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1-6(String)
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1-6(String)
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:43,130 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,493 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:46,493 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:46,493 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,493 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,499 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,499 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,513 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, mt=?, st=?, grade=?, teachmode=?, description=?, pic=?, create_date=?, change_date=?, audit_status=?, status=? WHERE id=?
+2023-04-20 10:26:46,513 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, mt=?, st=?, grade=?, teachmode=?, description=?, pic=?, create_date=?, change_date=?, audit_status=?, status=? WHERE id=?
+2023-04-20 10:26:46,516 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 大数据2(String), 具有一定的java基础(String), 1-6(String), 1-6-1(String), 200001(String), 200002(String), 111111大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据(String), https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg(String), 2019-09-04T09:56:19(LocalDateTime), 2023-04-20T10:26:46.509(LocalDateTime), 202001(String), 203001(String), 22(Long)
+2023-04-20 10:26:46,516 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 大数据2(String), 具有一定的java基础(String), 1-6(String), 1-6-1(String), 200001(String), 200002(String), 111111大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据大数据(String), https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg(String), 2019-09-04T09:56:19(LocalDateTime), 2023-04-20T10:26:46.509(LocalDateTime), 202001(String), 203001(String), 22(Long)
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,520 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,538 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,538 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,538 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,538 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,539 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,539 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,541 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
+2023-04-20 10:26:46,541 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
+2023-04-20 10:26:46,542 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 11.0(Float), 1111.0(Float), 334455(String), 223321(String), 1333333(String), 33(Integer), 22(Long)
+2023-04-20 10:26:46,542 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 11.0(Float), 1111.0(Float), 334455(String), 223321(String), 1333333(String), 33(Integer), 22(Long)
+2023-04-20 10:26:46,543 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-04-20 10:26:46,543 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-04-20 10:26:46,544 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:46,544 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-20 10:26:46,545 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,545 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,546 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,546 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,546 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,546 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-20 10:26:46,547 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,547 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,548 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,548 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,549 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:46,549 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:46,549 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-6-1(String)
+2023-04-20 10:26:46,549 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-6-1(String)
+2023-04-20 10:26:46,550 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,550 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,551 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:46,551 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-20 10:26:46,552 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-6(String)
+2023-04-20 10:26:46,552 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-6(String)
+2023-04-20 10:26:46,552 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,552 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-20 10:26:46,567 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m.media_fileName mediaFilename, m.id teachplanMeidaId, m.media_id mediaId FROM teachplan one INNER JOIN teachplan two ON two.parentid = one.id LEFT JOIN teachplan_media m ON m.teachplan_id = two.id WHERE one.parentid='0' and one.course_id = ? ORDER BY one.orderby, two.orderby
+2023-04-20 10:26:46,567 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m.media_fileName mediaFilename, m.id teachplanMeidaId, m.media_id mediaId FROM teachplan one INNER JOIN teachplan two ON two.parentid = one.id LEFT JOIN teachplan_media m ON m.teachplan_id = two.id WHERE one.parentid='0' and one.course_id = ? ORDER BY one.orderby, two.orderby
+2023-04-20 10:26:46,568 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,568 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2023-04-20 10:26:46,580 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 5
+2023-04-20 10:26:46,580 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 5

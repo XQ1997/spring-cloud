@@ -64,7 +64,7 @@ public class GlobalExceptionHandler {
 	}
 
 
-	@ResponseBody
+	/*@ResponseBody
 	@ExceptionHandler(Exception.class)
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 	public RestErrorResponse exception(Exception e) {
@@ -75,5 +75,5 @@ public class GlobalExceptionHandler {
 			return new RestErrorResponse("没有操作此功能的权限");
 		}
 		return new RestErrorResponse(CommonError.UNKOWN_ERROR.getErrMessage());
-	}
+	}*/
 }
