@@ -12,6 +12,11 @@
     <name>spring-cloud-content-api</name>
 
     <dependencies>
+        <!--服务注册/发现-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.x</groupId>
             <artifactId>spring-cloud-base</artifactId>
