@@ -1,9 +1,27 @@
+#spring:
+#  application:
+#    name: content-service
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        namespace: ${spring.profiles.active}
+#        group: DEV_GROUP
+#        file-extension: yaml
+#        enabled: true
+#
+#  #profiles默认为dev
+#  profiles:
+#    active: dev
+
+
+
 spring:
   application:
     name: content-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    url: jdbc:mysql://127.0.0.1:3307/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
     username: root
     password: rootroot
 # 日志文件配置路径

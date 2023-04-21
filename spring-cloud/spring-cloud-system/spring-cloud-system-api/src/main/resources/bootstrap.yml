@@ -4,13 +4,14 @@ server:
   port: 63110
 #微服务配置
 spring:
-  application:
-    name: system-service
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:
-        namespace: dev
-        server-addr: 127.0.0.1:8848
+        server-addr: 192.168.0.108:8848
+        namespace: ${spring.profiles.active}
+        service: system-api
 # 日志文件配置路径
 logging:
   config: classpath:log4j2-dev.xml
