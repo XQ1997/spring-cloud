@@ -20,7 +20,6 @@
             <artifactId>spring-cloud-content-model</artifactId>
             <version>1</version>
         </dependency>
-
         <!-- MySQL 驱动 -->
         <dependency>
             <groupId>mysql</groupId>
