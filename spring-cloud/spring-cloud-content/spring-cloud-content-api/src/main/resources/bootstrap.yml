@@ -1,17 +1,30 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 63040
 #微服务配置
 spring:
-  profiles:
-    active: dev
+  application:
+    name: content-api
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.0.108:8848
-        namespace: ${spring.profiles.active}
+        server-addr: 127.0.0.1:8848
+        namespace: dev
         service: content-api
+      config:
+        serverAddr: 127.0.0.1:8848
+        namespace: dev
+        group: DEV_GROUP
+        fileExtension: yaml
+        refresh: true
+        name: content-api-dev
+        extConfig:
+          - dataId: content-service-dev.yaml
+            group: DEV_GROUP
+            refresh: true
+            type: yaml
+            name: content-service-dev
 
 # 日志文件配置路径
 logging:

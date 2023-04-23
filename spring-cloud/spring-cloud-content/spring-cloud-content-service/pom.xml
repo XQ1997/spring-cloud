@@ -11,10 +11,10 @@
     <version>1</version>
     <name>spring-cloud-content-service</name>
     <dependencies>
-      <!--  <dependency>
+        <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>com.x</groupId>
             <artifactId>spring-cloud-content-model</artifactId>
