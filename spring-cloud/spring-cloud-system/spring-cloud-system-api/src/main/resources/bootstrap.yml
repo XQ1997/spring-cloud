@@ -16,11 +16,13 @@ spring:
         refresh: true
         name: system-api-dev
         extConfig:
-          - dataId: system-service-dev.yaml
+          - dataId: system-service-${spring.profiles.active}.yaml
             group: DEV_GROUP
             refresh: true
             type: yaml
             name: system-service-dev
+  profiles:
+    active: dev
 # 日志文件配置路径
 logging:
   config: classpath:log4j2-dev.xml
