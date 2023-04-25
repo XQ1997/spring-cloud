@@ -14,7 +14,7 @@ import com.x.media.model.po.MediaFiles;
 public interface MediaFileService {
 
  /**媒资文件查询方法
-  * @param companyId 公司id
+  * @param companyId 机构id
   * @param pageParams 分页参数
   * @param queryMediaParamsDto 查询条件
   * @return 数据
