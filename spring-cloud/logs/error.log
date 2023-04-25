@@ -1,45 +1,15 @@
-2023-04-25 10:07:08,523 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosConfigProperties.java:350] - create config service error!properties=NacosConfigProperties{serverAddr='null', encode='null', group='DEFAULT_GROUP', prefix='null', fileExtension='properties', timeout=3000, endpoint='null', namespace='null', accessKey='null', secretKey='null', contextPath='null', clusterName='null', name='null', sharedDataids='null', refreshableDataids='null', extConfig=null},e=,
-ErrCode:-400, ErrMsg:endpoint is blank
-	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:45)
-	at com.alibaba.nacos.api.NacosFactory.createConfigService(NacosFactory.java:43)
-	at com.alibaba.cloud.nacos.NacosConfigProperties.configServiceInstance(NacosConfigProperties.java:346)
-	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:63)
-	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:94)
-	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:649)
-	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:373)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
-	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
-	at org.springframework.cloud.context.refresh.ContextRefresher.addConfigFilesToEnvironment(ContextRefresher.java:96)
-	at org.springframework.cloud.context.refresh.ContextRefresher.refreshEnvironment(ContextRefresher.java:76)
-	at org.springframework.cloud.context.refresh.ContextRefresher.refresh(ContextRefresher.java:68)
-	at org.springframework.cloud.endpoint.event.RefreshEventListener.handle(RefreshEventListener.java:50)
-	at org.springframework.cloud.endpoint.event.RefreshEventListener.onApplicationEvent(RefreshEventListener.java:39)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
-	at com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1.receiveConfigInfo(NacosContextRefresher.java:125)
-	at com.alibaba.nacos.client.config.impl.CacheData$1.run(CacheData.java:190)
-	at com.alibaba.nacos.client.config.impl.CacheData.safeNotifyListener(CacheData.java:211)
-	at com.alibaba.nacos.client.config.impl.CacheData.checkListenerMd5(CacheData.java:161)
-	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:539)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.alibaba.nacos.api.config.ConfigFactory.createConfigService(ConfigFactory.java:42)
-	... 30 more
-Caused by: ErrCode:-400, ErrMsg:endpoint is blank
-	at com.alibaba.nacos.client.config.impl.ServerListManager.<init>(ServerListManager.java:154)
-	at com.alibaba.nacos.client.config.http.ServerHttpAgent.<init>(ServerHttpAgent.java:244)
-	at com.alibaba.nacos.client.config.NacosConfigService.<init>(NacosConfigService.java:83)
-	... 35 more
+2023-04-25 14:41:20,920 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.x.media.service.impl.MediaFileServiceImpl required a bean of type 'com.x.media.mapper.MediaFilesMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.x.media.mapper.MediaFilesMapper' in your configuration.
+

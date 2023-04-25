@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>spring-cloud-parent</artifactId>
+        <groupId>com.x</groupId>
+        <version>1</version>
+        <relativePath>../spring-cloud-parent</relativePath>
+    </parent>
+    <artifactId>spring-cloud-media</artifactId>
+    <name>spring-cloud-media</name>
+    <version>1</version>
+    <description>spring-cloud-media</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-cloud-media-api</module>
+        <module>spring-cloud-media-service</module>
+        <module>spring-cloud-media-model</module>
+    </modules>
+</project>
