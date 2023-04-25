@@ -1,0 +1,856 @@
+2023-04-24 15:37:04,342 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8205dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:04,342 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8205dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:04,955 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:37:04,955 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:37:04,978 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:37:04,978 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:37:04,980 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1639765351 {name='system-api-dev.yaml', properties={server.servlet.context-path=/system, server.port=63110}}, NacosPropertySource@478209179 {name='system-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://localhost:3307/xc_system?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.datasource.password=rootroot}}]}
+2023-04-24 15:37:04,980 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1639765351 {name='system-api-dev.yaml', properties={server.servlet.context-path=/system, server.port=63110}}, NacosPropertySource@478209179 {name='system-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://localhost:3307/xc_system?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.datasource.password=rootroot}}]}
+2023-04-24 15:37:05,010 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+2023-04-24 15:37:05,010 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+2023-04-24 15:37:05,608 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:37:05,608 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:37:05,668 INFO [main][GenericScope.java:294] - BeanFactory id=1de401d7-9de3-3123-9274-cfc05aa5cc4b
+2023-04-24 15:37:05,668 INFO [main][GenericScope.java:294] - BeanFactory id=1de401d7-9de3-3123-9274-cfc05aa5cc4b
+2023-04-24 15:37:05,706 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c065acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:05,706 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c065acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:05,719 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8205dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:05,719 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8205dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:37:05,980 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63110 (http)
+2023-04-24 15:37:05,980 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63110 (http)
+2023-04-24 15:37:05,990 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:37:05,990 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:37:05,993 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:37:05,993 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:37:05,994 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:37:05,994 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:37:06,000 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:37:06,000 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:37:06,085 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:37:06,085 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:37:06,085 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1058 ms
+2023-04-24 15:37:06,085 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1058 ms
+2023-04-24 15:37:06,109 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:37:06,109 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:37:06,114 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:37:06,114 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:37:06,115 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:37:06,170 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:37:06,170 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:37:06,250 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:37:06,250 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:37:06,305 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@40f35e52'
+2023-04-24 15:37:06,305 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@40f35e52'
+2023-04-24 15:37:06,306 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:37:06,306 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:37:06,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.insert
+2023-04-24 15:37:06,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.insert
+2023-04-24 15:37:06,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.delete
+2023-04-24 15:37:06,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.delete
+2023-04-24 15:37:06,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteByMap
+2023-04-24 15:37:06,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteByMap
+2023-04-24 15:37:06,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteById
+2023-04-24 15:37:06,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteById
+2023-04-24 15:37:06,701 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteBatchIds
+2023-04-24 15:37:06,701 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteBatchIds
+2023-04-24 15:37:06,705 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.update
+2023-04-24 15:37:06,705 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.update
+2023-04-24 15:37:06,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.updateById
+2023-04-24 15:37:06,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.updateById
+2023-04-24 15:37:06,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectById
+2023-04-24 15:37:06,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectById
+2023-04-24 15:37:06,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectBatchIds
+2023-04-24 15:37:06,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectBatchIds
+2023-04-24 15:37:06,710 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectByMap
+2023-04-24 15:37:06,710 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectByMap
+2023-04-24 15:37:06,712 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectOne
+2023-04-24 15:37:06,712 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectOne
+2023-04-24 15:37:06,715 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectCount
+2023-04-24 15:37:06,715 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectCount
+2023-04-24 15:37:06,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMaps
+2023-04-24 15:37:06,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMaps
+2023-04-24 15:37:06,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMapsPage
+2023-04-24 15:37:06,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMapsPage
+2023-04-24 15:37:06,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectObjs
+2023-04-24 15:37:06,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectObjs
+2023-04-24 15:37:06,722 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectList
+2023-04-24 15:37:06,722 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectList
+2023-04-24 15:37:06,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectPage
+2023-04-24 15:37:06,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectPage
+2023-04-24 15:37:07,027 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:37:07,027 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:37:07,058 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:37:07,058 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:37:07,059 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:37:07,059 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:37:07,062 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:37:07,062 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:37:07,063 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:37:07,063 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:37:07,082 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:37:07,082 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:37:07,083 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:37:07,083 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:37:07,085 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:37:07,085 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:37:07,086 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:37:07,086 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:37:07,086 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:37:07,086 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:37:07,087 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:37:07,087 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:37:07,088 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:37:07,088 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:37:07,088 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:37:07,088 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:37:07,088 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:37:07,092 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:37:07,092 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:37:07,092 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:37:07,092 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:37:07,093 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:37:07,172 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:37:07,172 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:37:07,544 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:37:07,544 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:37:07,545 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:37:07,545 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:37:07,545 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:37:07,545 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:37:07,550 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:37:07,550 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:37:07,560 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:37:07,560 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:37:07,981 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:37:07,981 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:37:07,990 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:37:07,990 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:37:08,015 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:37:08,015 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:37:08,112 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:37:08,112 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:37:08,119 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:37:08,119 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:37:08,130 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-04-24 15:37:08,130 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-04-24 15:37:08,135 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:37:08,135 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:37:08,186 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:37:08,186 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:37:08,191 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:37:08,191 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:37:08,188 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63110,"weight":1.0}
+2023-04-24 15:37:08,188 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63110,"weight":1.0}
+2023-04-24 15:37:08,193 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63110&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:37:08,193 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63110&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:37:08,459 INFO [main][NacosServiceRegistry.java:62] - nacos registry, system-api 192.168.0.112:63110 register finished
+2023-04-24 15:37:08,459 INFO [main][NacosServiceRegistry.java:62] - nacos registry, system-api 192.168.0.112:63110 register finished
+2023-04-24 15:37:08,461 INFO [main][StartupInfoLogger.java:59] - Started SystemApplication in 4.932 seconds (JVM running for 5.927)
+2023-04-24 15:37:08,461 INFO [main][StartupInfoLogger.java:59] - Started SystemApplication in 4.932 seconds (JVM running for 5.927)
+2023-04-24 15:37:08,468 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:37:08,468 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:37:08,468 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:37:08,468 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:37:08,470 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:37:08,470 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:37:08,470 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:37:08,470 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:37:12,554 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:37:12,554 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:37:12,811 INFO [Thread-19][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:37:12,811 INFO [Thread-19][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:37:12,811 INFO [Thread-19][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@system-api:192.168.0.112:63110 from beat map.
+2023-04-24 15:37:12,811 INFO [Thread-19][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@system-api:192.168.0.112:63110 from beat map.
+2023-04-24 15:37:12,812 INFO [Thread-19][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63110,"weight":1.0}
+2023-04-24 15:37:12,812 INFO [Thread-19][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63110,"weight":1.0}
+2023-04-24 15:37:12,812 DEBUG [Thread-19][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63110&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:37:12,812 DEBUG [Thread-19][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63110&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:37:12,816 INFO [Thread-19][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:37:12,816 INFO [Thread-19][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:37:12,819 INFO [Thread-19][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:37:12,819 INFO [Thread-19][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:37:12,822 INFO [Thread-19][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:37:12,822 INFO [Thread-19][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:37:12,823 INFO [Thread-19][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-04-24 15:37:12,823 INFO [Thread-19][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-04-24 15:41:21,844 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81b45bac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:21,844 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81b45bac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:22,231 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:41:22,231 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:41:22,240 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:41:22,240 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'system-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:41:22,247 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@647149086 {name='system-api-dev-dev.yaml', properties={}}, NacosPropertySource@2070160397 {name='system-api-dev.yaml', properties={server.servlet.context-path=/system, server.port=63110}}, NacosPropertySource@103787801 {name='system-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://localhost:3307/xc_system?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.datasource.password=rootroot}}]}
+2023-04-24 15:41:22,247 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@647149086 {name='system-api-dev-dev.yaml', properties={}}, NacosPropertySource@2070160397 {name='system-api-dev.yaml', properties={server.servlet.context-path=/system, server.port=63110}}, NacosPropertySource@103787801 {name='system-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://localhost:3307/xc_system?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.datasource.password=rootroot}}]}
+2023-04-24 15:41:22,266 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-04-24 15:41:22,266 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-04-24 15:41:22,778 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:41:22,778 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:41:22,832 INFO [main][GenericScope.java:294] - BeanFactory id=1de401d7-9de3-3123-9274-cfc05aa5cc4b
+2023-04-24 15:41:22,832 INFO [main][GenericScope.java:294] - BeanFactory id=1de401d7-9de3-3123-9274-cfc05aa5cc4b
+2023-04-24 15:41:22,869 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$659a58af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:22,869 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$659a58af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:22,879 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81b45bac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:22,879 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81b45bac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:41:23,113 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63110 (http)
+2023-04-24 15:41:23,113 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63110 (http)
+2023-04-24 15:41:23,122 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:41:23,122 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:41:23,125 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:41:23,125 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:41:23,126 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:41:23,126 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:41:23,131 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:41:23,131 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:41:23,210 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:41:23,210 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:41:23,210 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 937 ms
+2023-04-24 15:41:23,210 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 937 ms
+2023-04-24 15:41:23,230 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:41:23,230 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:41:23,234 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:41:23,235 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:41:23,235 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:41:23,235 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:41:23,235 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:41:23,286 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:41:23,286 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:41:23,349 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:41:23,349 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:41:23,392 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@21a02556'
+2023-04-24 15:41:23,392 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@21a02556'
+2023-04-24 15:41:23,394 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:41:23,394 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:41:23,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.insert
+2023-04-24 15:41:23,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.insert
+2023-04-24 15:41:23,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.delete
+2023-04-24 15:41:23,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.delete
+2023-04-24 15:41:23,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteByMap
+2023-04-24 15:41:23,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteByMap
+2023-04-24 15:41:23,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteById
+2023-04-24 15:41:23,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteById
+2023-04-24 15:41:23,770 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteBatchIds
+2023-04-24 15:41:23,770 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.deleteBatchIds
+2023-04-24 15:41:23,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.update
+2023-04-24 15:41:23,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.update
+2023-04-24 15:41:23,774 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.updateById
+2023-04-24 15:41:23,774 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.updateById
+2023-04-24 15:41:23,775 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectById
+2023-04-24 15:41:23,775 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectById
+2023-04-24 15:41:23,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectBatchIds
+2023-04-24 15:41:23,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectBatchIds
+2023-04-24 15:41:23,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectByMap
+2023-04-24 15:41:23,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectByMap
+2023-04-24 15:41:23,780 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectOne
+2023-04-24 15:41:23,780 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectOne
+2023-04-24 15:41:23,782 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectCount
+2023-04-24 15:41:23,782 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectCount
+2023-04-24 15:41:23,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMaps
+2023-04-24 15:41:23,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMaps
+2023-04-24 15:41:23,785 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMapsPage
+2023-04-24 15:41:23,785 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectMapsPage
+2023-04-24 15:41:23,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectObjs
+2023-04-24 15:41:23,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectObjs
+2023-04-24 15:41:23,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectList
+2023-04-24 15:41:23,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectList
+2023-04-24 15:41:23,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectPage
+2023-04-24 15:41:23,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.system.mapper.DictionaryMapper.selectPage
+2023-04-24 15:41:24,037 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:41:24,037 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:41:24,064 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:41:24,064 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:41:24,065 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:41:24,065 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:41:24,068 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:41:24,068 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:41:24,068 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:41:24,068 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:41:24,085 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:41:24,085 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:41:24,086 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:41:24,086 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:41:24,088 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:41:24,088 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:41:24,088 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:41:24,088 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:41:24,089 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:41:24,089 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:41:24,089 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:41:24,089 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:41:24,090 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:41:24,090 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:41:24,090 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:41:24,090 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:41:24,090 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:41:24,090 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:41:24,091 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:41:24,091 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:41:24,091 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:41:24,091 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:41:24,094 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:41:24,171 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:41:24,171 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:41:24,489 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:41:24,489 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:41:24,489 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:41:24,489 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:41:24,490 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:41:24,490 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:41:24,494 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:24,494 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:24,502 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:41:24,502 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:41:24,882 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:41:24,882 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:41:24,891 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:41:24,891 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:41:24,912 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:41:24,912 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:41:24,995 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:41:24,995 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-04-24 15:41:25,002 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:41:25,002 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:41:25,012 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-04-24 15:41:25,012 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-04-24 15:41:25,016 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:41:25,016 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:41:25,062 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:25,062 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:25,065 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:25,065 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:25,062 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63110,"weight":1.0}
+2023-04-24 15:41:25,062 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63110,"weight":1.0}
+2023-04-24 15:41:25,066 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63110&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:41:25,066 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63110&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:41:25,071 INFO [main][NacosServiceRegistry.java:62] - nacos registry, system-api 192.168.0.112:63110 register finished
+2023-04-24 15:41:25,071 INFO [main][NacosServiceRegistry.java:62] - nacos registry, system-api 192.168.0.112:63110 register finished
+2023-04-24 15:41:25,072 INFO [main][StartupInfoLogger.java:59] - Started SystemApplication in 3.976 seconds (JVM running for 4.837)
+2023-04-24 15:41:25,072 INFO [main][StartupInfoLogger.java:59] - Started SystemApplication in 3.976 seconds (JVM running for 4.837)
+2023-04-24 15:41:25,077 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,077 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:25,078 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,078 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:25,078 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,078 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] system-api-dev-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:25,078 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=system-api-dev-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:41:29,508 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:29,508 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:30,085 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:30,085 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:30,087 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:30,087 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:34,519 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:34,519 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:35,100 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:35,100 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:35,101 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:35,101 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:39,528 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:39,528 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:40,118 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:40,118 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:40,119 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:40,119 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:44,541 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:44,541 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:45,134 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:45,134 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:45,135 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:45,135 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:49,558 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:49,558 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:50,150 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:50,150 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:50,151 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:50,151 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:54,565 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:54,565 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:55,157 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:55,157 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:41:55,158 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:55,158 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:41:59,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:41:59,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:00,174 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:00,174 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:00,175 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:00,175 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:04,580 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:04,580 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:05,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:05,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:05,191 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:05,191 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:08,332 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5119227e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:08,332 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5119227e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:08,718 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'content-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:42:08,718 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'content-service-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:42:08,730 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'content-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:42:08,730 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'content-api-dev.yaml', group: 'DEV_GROUP'
+2023-04-24 15:42:08,735 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1660837991 {name='content-api-dev-dev.yaml', properties={}}, NacosPropertySource@1325866488 {name='content-api-dev.yaml', properties={server.servlet.context-path=/content, server.port=63040, logging.config=classpath:log4j2-dev.xml}}, NacosPropertySource@1306794745 {name='content-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://127.0.0.1:3307/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.application.name=content-service, spring.datasource.password=rootroot}}]}
+2023-04-24 15:42:08,735 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1660837991 {name='content-api-dev-dev.yaml', properties={}}, NacosPropertySource@1325866488 {name='content-api-dev.yaml', properties={server.servlet.context-path=/content, server.port=63040, logging.config=classpath:log4j2-dev.xml}}, NacosPropertySource@1306794745 {name='content-service-dev.yaml', properties={spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.username=root, spring.datasource.url=jdbc:mysql://127.0.0.1:3307/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&, spring.application.name=content-service, spring.datasource.password=rootroot}}]}
+2023-04-24 15:42:08,754 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-04-24 15:42:08,754 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-04-24 15:42:09,286 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:42:09,286 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-04-24 15:42:09,342 INFO [main][GenericScope.java:294] - BeanFactory id=f0eb5e69-4b2f-3b13-bd05-1103c1beda53
+2023-04-24 15:42:09,342 INFO [main][GenericScope.java:294] - BeanFactory id=f0eb5e69-4b2f-3b13-bd05-1103c1beda53
+2023-04-24 15:42:09,380 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34ff1f81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:09,380 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34ff1f81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:09,388 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5119227e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:09,388 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5119227e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 15:42:09,586 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:09,586 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:09,626 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63040 (http)
+2023-04-24 15:42:09,626 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 63040 (http)
+2023-04-24 15:42:09,635 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-04-24 15:42:09,635 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-04-24 15:42:09,638 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:42:09,638 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-04-24 15:42:09,638 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:42:09,638 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-04-24 15:42:09,643 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:42:09,643 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\tools\Java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\tools\python\env\Scripts\;D:\software\tools\python\env\;D:\software\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\Bandizip\;D:\software\tools\Java\jdk8\bin;D:\software\tools\Java\jdk8\jre\bin;D:\software\tools\apache-maven-3.8.6\bin;D:\software\Git\cmd;D:\software\mysql5.7\bin;D:\software\mysql8\bin;D:\software\Microsoft VS Code\bin;D:\software\tools\apache-jmeter-5.5\bin;D:\software\tools\Redis3;D:\software\tools\nodeJs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;D:\software\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;.]
+2023-04-24 15:42:09,723 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:42:09,723 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:42:09,724 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 963 ms
+2023-04-24 15:42:09,724 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 963 ms
+2023-04-24 15:42:09,745 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:42:09,745 INFO [main][ServletRegistrationBean.java:186] - Servlet dispatcherServlet mapped to [/]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'formContentFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'requestContextFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:42:09,749 INFO [main][AbstractFilterRegistrationBean.java:248] - Mapping filter: 'corsFilter' to: [/*]
+2023-04-24 15:42:09,798 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:42:09,798 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-04-24 15:42:09,868 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:42:09,868 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-04-24 15:42:09,920 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6ba060f3'
+2023-04-24 15:42:09,920 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6ba060f3'
+2023-04-24 15:42:09,922 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:42:09,922 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-04-24 15:42:10,197 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:10,197 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:10,199 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:10,199 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:10,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.insert
+2023-04-24 15:42:10,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.insert
+2023-04-24 15:42:10,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.delete
+2023-04-24 15:42:10,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.delete
+2023-04-24 15:42:10,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteByMap
+2023-04-24 15:42:10,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteByMap
+2023-04-24 15:42:10,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteById
+2023-04-24 15:42:10,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteById
+2023-04-24 15:42:10,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-04-24 15:42:10,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-04-24 15:42:10,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.update
+2023-04-24 15:42:10,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.update
+2023-04-24 15:42:10,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.updateById
+2023-04-24 15:42:10,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.updateById
+2023-04-24 15:42:10,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectById
+2023-04-24 15:42:10,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectById
+2023-04-24 15:42:10,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectBatchIds
+2023-04-24 15:42:10,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectBatchIds
+2023-04-24 15:42:10,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectByMap
+2023-04-24 15:42:10,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectByMap
+2023-04-24 15:42:10,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectOne
+2023-04-24 15:42:10,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectOne
+2023-04-24 15:42:10,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectCount
+2023-04-24 15:42:10,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectCount
+2023-04-24 15:42:10,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMaps
+2023-04-24 15:42:10,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMaps
+2023-04-24 15:42:10,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMapsPage
+2023-04-24 15:42:10,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMapsPage
+2023-04-24 15:42:10,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectObjs
+2023-04-24 15:42:10,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectObjs
+2023-04-24 15:42:10,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectList
+2023-04-24 15:42:10,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectList
+2023-04-24 15:42:10,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectPage
+2023-04-24 15:42:10,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectPage
+2023-04-24 15:42:10,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.insert
+2023-04-24 15:42:10,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.insert
+2023-04-24 15:42:10,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.delete
+2023-04-24 15:42:10,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.delete
+2023-04-24 15:42:10,354 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteByMap
+2023-04-24 15:42:10,354 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteByMap
+2023-04-24 15:42:10,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteById
+2023-04-24 15:42:10,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteById
+2023-04-24 15:42:10,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-04-24 15:42:10,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-04-24 15:42:10,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.update
+2023-04-24 15:42:10,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.update
+2023-04-24 15:42:10,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.updateById
+2023-04-24 15:42:10,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.updateById
+2023-04-24 15:42:10,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectById
+2023-04-24 15:42:10,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectById
+2023-04-24 15:42:10,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectBatchIds
+2023-04-24 15:42:10,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectBatchIds
+2023-04-24 15:42:10,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectByMap
+2023-04-24 15:42:10,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectByMap
+2023-04-24 15:42:10,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectOne
+2023-04-24 15:42:10,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectOne
+2023-04-24 15:42:10,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectCount
+2023-04-24 15:42:10,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectCount
+2023-04-24 15:42:10,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMaps
+2023-04-24 15:42:10,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMaps
+2023-04-24 15:42:10,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMapsPage
+2023-04-24 15:42:10,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMapsPage
+2023-04-24 15:42:10,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectObjs
+2023-04-24 15:42:10,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectObjs
+2023-04-24 15:42:10,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectList
+2023-04-24 15:42:10,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectList
+2023-04-24 15:42:10,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectPage
+2023-04-24 15:42:10,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectPage
+2023-04-24 15:42:10,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-04-24 15:42:10,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-04-24 15:42:10,383 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.insert
+2023-04-24 15:42:10,383 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.insert
+2023-04-24 15:42:10,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.delete
+2023-04-24 15:42:10,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.delete
+2023-04-24 15:42:10,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteByMap
+2023-04-24 15:42:10,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteByMap
+2023-04-24 15:42:10,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteById
+2023-04-24 15:42:10,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteById
+2023-04-24 15:42:10,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-04-24 15:42:10,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-04-24 15:42:10,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.update
+2023-04-24 15:42:10,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.update
+2023-04-24 15:42:10,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.updateById
+2023-04-24 15:42:10,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.updateById
+2023-04-24 15:42:10,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectById
+2023-04-24 15:42:10,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectById
+2023-04-24 15:42:10,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-04-24 15:42:10,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-04-24 15:42:10,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectByMap
+2023-04-24 15:42:10,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectByMap
+2023-04-24 15:42:10,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectOne
+2023-04-24 15:42:10,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectOne
+2023-04-24 15:42:10,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectCount
+2023-04-24 15:42:10,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectCount
+2023-04-24 15:42:10,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMaps
+2023-04-24 15:42:10,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMaps
+2023-04-24 15:42:10,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-04-24 15:42:10,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-04-24 15:42:10,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectObjs
+2023-04-24 15:42:10,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectObjs
+2023-04-24 15:42:10,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectList
+2023-04-24 15:42:10,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectList
+2023-04-24 15:42:10,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectPage
+2023-04-24 15:42:10,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectPage
+2023-04-24 15:42:10,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectTreeNodes
+2023-04-24 15:42:10,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectTreeNodes
+2023-04-24 15:42:10,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.insert
+2023-04-24 15:42:10,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.insert
+2023-04-24 15:42:10,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.delete
+2023-04-24 15:42:10,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.delete
+2023-04-24 15:42:10,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteByMap
+2023-04-24 15:42:10,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteByMap
+2023-04-24 15:42:10,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteById
+2023-04-24 15:42:10,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteById
+2023-04-24 15:42:10,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteBatchIds
+2023-04-24 15:42:10,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteBatchIds
+2023-04-24 15:42:10,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.update
+2023-04-24 15:42:10,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.update
+2023-04-24 15:42:10,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.updateById
+2023-04-24 15:42:10,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.updateById
+2023-04-24 15:42:10,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectById
+2023-04-24 15:42:10,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectById
+2023-04-24 15:42:10,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectBatchIds
+2023-04-24 15:42:10,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectBatchIds
+2023-04-24 15:42:10,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectByMap
+2023-04-24 15:42:10,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectByMap
+2023-04-24 15:42:10,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectOne
+2023-04-24 15:42:10,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectOne
+2023-04-24 15:42:10,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectCount
+2023-04-24 15:42:10,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectCount
+2023-04-24 15:42:10,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMaps
+2023-04-24 15:42:10,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMaps
+2023-04-24 15:42:10,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMapsPage
+2023-04-24 15:42:10,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMapsPage
+2023-04-24 15:42:10,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectObjs
+2023-04-24 15:42:10,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectObjs
+2023-04-24 15:42:10,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectList
+2023-04-24 15:42:10,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectList
+2023-04-24 15:42:10,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectPage
+2023-04-24 15:42:10,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectPage
+2023-04-24 15:42:10,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.insert
+2023-04-24 15:42:10,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.insert
+2023-04-24 15:42:10,513 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.delete
+2023-04-24 15:42:10,513 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.delete
+2023-04-24 15:42:10,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-04-24 15:42:10,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-04-24 15:42:10,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteById
+2023-04-24 15:42:10,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteById
+2023-04-24 15:42:10,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-04-24 15:42:10,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-04-24 15:42:10,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.update
+2023-04-24 15:42:10,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.update
+2023-04-24 15:42:10,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.updateById
+2023-04-24 15:42:10,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.updateById
+2023-04-24 15:42:10,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectById
+2023-04-24 15:42:10,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectById
+2023-04-24 15:42:10,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-04-24 15:42:10,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-04-24 15:42:10,526 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectByMap
+2023-04-24 15:42:10,526 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectByMap
+2023-04-24 15:42:10,529 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectOne
+2023-04-24 15:42:10,529 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectOne
+2023-04-24 15:42:10,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectCount
+2023-04-24 15:42:10,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectCount
+2023-04-24 15:42:10,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMaps
+2023-04-24 15:42:10,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMaps
+2023-04-24 15:42:10,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-04-24 15:42:10,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-04-24 15:42:10,536 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectObjs
+2023-04-24 15:42:10,536 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectObjs
+2023-04-24 15:42:10,539 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectList
+2023-04-24 15:42:10,539 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectList
+2023-04-24 15:42:10,541 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectPage
+2023-04-24 15:42:10,541 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectPage
+2023-04-24 15:42:10,793 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:42:10,793 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-04-24 15:42:10,816 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:42:10,816 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:42:10,816 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:42:10,816 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:42:10,821 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:42:10,821 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-04-24 15:42:10,821 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:42:10,821 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-04-24 15:42:10,835 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:42:10,835 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:42:10,835 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:42:10,835 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-04-24 15:42:10,838 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:42:10,838 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-04-24 15:42:10,838 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:42:10,838 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-04-24 15:42:10,839 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:42:10,839 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-04-24 15:42:10,839 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:42:10,839 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-04-24 15:42:10,839 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:42:10,839 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-04-24 15:42:10,839 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:42:10,839 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-04-24 15:42:10,840 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:42:10,840 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-04-24 15:42:10,840 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:42:10,840 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-04-24 15:42:10,840 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:42:10,840 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:42:10,843 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-04-24 15:42:10,902 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:10,902 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:11,225 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:42:11,225 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-04-24 15:42:11,225 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:42:11,225 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-04-24 15:42:11,226 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:42:11,226 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-04-24 15:42:11,231 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:11,231 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:11,239 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:42:11,239 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-04-24 15:42:11,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.insert
+2023-04-24 15:42:11,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.insert
+2023-04-24 15:42:11,592 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.delete
+2023-04-24 15:42:11,592 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.delete
+2023-04-24 15:42:11,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteByMap
+2023-04-24 15:42:11,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteByMap
+2023-04-24 15:42:11,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteById
+2023-04-24 15:42:11,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteById
+2023-04-24 15:42:11,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-04-24 15:42:11,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-04-24 15:42:11,596 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.update
+2023-04-24 15:42:11,596 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.update
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.updateById
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.updateById
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectById
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectById
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-04-24 15:42:11,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-04-24 15:42:11,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectByMap
+2023-04-24 15:42:11,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectByMap
+2023-04-24 15:42:11,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectOne
+2023-04-24 15:42:11,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectOne
+2023-04-24 15:42:11,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectCount
+2023-04-24 15:42:11,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectCount
+2023-04-24 15:42:11,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMaps
+2023-04-24 15:42:11,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMaps
+2023-04-24 15:42:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-04-24 15:42:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-04-24 15:42:11,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectObjs
+2023-04-24 15:42:11,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectObjs
+2023-04-24 15:42:11,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectList
+2023-04-24 15:42:11,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectList
+2023-04-24 15:42:11,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectPage
+2023-04-24 15:42:11,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectPage
+2023-04-24 15:42:11,659 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:42:11,659 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-04-24 15:42:11,668 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:42:11,668 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-04-24 15:42:11,693 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:42:11,693 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-04-24 15:42:11,837 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-04-24 15:42:11,837 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-04-24 15:42:11,845 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:42:11,845 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2023-04-24 15:42:11,860 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-04-24 15:42:11,860 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-04-24 15:42:11,865 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:42:11,865 INFO [main][BeatReactor.java:58] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0} to beat map.
+2023-04-24 15:42:11,927 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:11,927 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:11,930 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:11,930 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:11,927 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@content-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63040,"weight":1.0}
+2023-04-24 15:42:11,927 INFO [main][NamingProxy.java:172] - [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@content-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":63040,"weight":1.0}
+2023-04-24 15:42:11,932 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63040&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8
+2023-04-24 15:42:11,932 DEBUG [main][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63040&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.0.112&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8
+2023-04-24 15:42:11,937 INFO [main][NacosServiceRegistry.java:62] - nacos registry, content-api 192.168.0.112:63040 register finished
+2023-04-24 15:42:11,937 INFO [main][NacosServiceRegistry.java:62] - nacos registry, content-api 192.168.0.112:63040 register finished
+2023-04-24 15:42:11,939 INFO [main][StartupInfoLogger.java:59] - Started ContentApplication in 4.353 seconds (JVM running for 5.213)
+2023-04-24 15:42:11,939 INFO [main][StartupInfoLogger.java:59] - Started ContentApplication in 4.353 seconds (JVM running for 5.213)
+2023-04-24 15:42:11,943 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,943 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,944 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:11,944 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:11,945 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,945 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-api-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,945 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:11,945 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:11,945 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-api-dev-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,945 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-api-dev-dev.yaml+DEV_GROUP+dev
+2023-04-24 15:42:11,945 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:11,945 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev-dev.yaml, group=DEV_GROUP, cnt=1
+2023-04-24 15:42:14,597 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:14,597 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:15,207 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:15,207 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:15,208 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:15,208 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:16,237 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:16,237 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:16,941 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:16,941 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:16,942 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:16,942 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:19,608 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:19,608 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:20,219 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:20,219 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:20,221 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:20,221 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:21,247 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:21,247 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:21,948 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:21,948 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:21,950 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:21,950 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:24,619 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:24,619 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:25,225 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:25,225 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:25,226 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:25,226 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:26,256 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:26,256 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:26,961 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:26,961 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:26,963 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:26,963 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:29,624 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:29,624 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:30,231 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:30,231 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63110,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:30,233 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:30,233 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63110%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40system-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:31,263 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:31,263 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-04-24 15:42:31,968 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:31,968 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:303] - [BEAT] dev sending beat to server: {"cluster":"DEFAULT","ip":"192.168.0.112","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":63040,"scheduled":false,"serviceName":"DEFAULT_GROUP@@content-api","stopped":false,"weight":1.0}
+2023-04-24 15:42:31,969 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:31,969 DEBUG [com.alibaba.nacos.naming.beat.sender][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.0.112%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A63040%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40content-api%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8&namespaceId=dev
+2023-04-24 15:42:32,835 INFO [Thread-19][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:42:32,835 INFO [Thread-19][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:42:32,835 INFO [Thread-19][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@system-api:192.168.0.112:63110 from beat map.
+2023-04-24 15:42:32,835 INFO [Thread-19][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@system-api:192.168.0.112:63110 from beat map.
+2023-04-24 15:42:32,835 INFO [Thread-19][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63110,"weight":1.0}
+2023-04-24 15:42:32,835 INFO [Thread-19][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@system-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63110,"weight":1.0}
+2023-04-24 15:42:32,836 DEBUG [Thread-19][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63110&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:42:32,836 DEBUG [Thread-19][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63110&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40system-api&encoding=UTF-8
+2023-04-24 15:42:32,839 INFO [Thread-19][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:42:32,839 INFO [Thread-19][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:42:32,840 INFO [Thread-19][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:32,840 INFO [Thread-19][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:32,842 INFO [Thread-19][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:42:32,842 INFO [Thread-19][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:42:32,843 INFO [Thread-19][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-04-24 15:42:32,843 INFO [Thread-19][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-04-24 15:42:32,861 INFO [Thread-20][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:42:32,861 INFO [Thread-20][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+2023-04-24 15:42:32,862 INFO [Thread-20][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@content-api:192.168.0.112:63040 from beat map.
+2023-04-24 15:42:32,862 INFO [Thread-20][BeatReactor.java:65] - [BEAT] removing beat: DEFAULT_GROUP@@content-api:192.168.0.112:63040 from beat map.
+2023-04-24 15:42:32,862 INFO [Thread-20][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@content-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63040,"weight":1.0}
+2023-04-24 15:42:32,862 INFO [Thread-20][NamingProxy.java:194] - [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@content-api with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.112","ipDeleteTimeout":30000,"metadata":{},"port":63040,"weight":1.0}
+2023-04-24 15:42:32,863 DEBUG [Thread-20][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63040&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8
+2023-04-24 15:42:32,863 DEBUG [Thread-20][HttpClient.java:90] - Request from server: http://127.0.0.1:8848/nacos/v1/ns/instance?namespaceId=dev&port=63040&clusterName=DEFAULT&ip=192.168.0.112&ephemeral=true&serviceName=DEFAULT_GROUP%40%40content-api&encoding=UTF-8
+2023-04-24 15:42:32,866 INFO [Thread-20][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:42:32,866 INFO [Thread-20][NacosServiceRegistry.java:93] - De-registration finished.
+2023-04-24 15:42:32,868 INFO [Thread-20][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:32,868 INFO [Thread-20][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 15:42:32,870 INFO [Thread-20][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:42:32,870 INFO [Thread-20][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-04-24 15:42:32,872 INFO [Thread-20][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-04-24 15:42:32,872 INFO [Thread-20][DruidDataSource.java:2144] - {dataSource-1} closed

@@ -1,0 +1,22 @@
+#微服务配置
+spring:
+  application:
+    name: gateway-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: ${spring.profiles.active}
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: ${spring.profiles.active}
+        group: DEV_GROUP
+        fileExtension: yaml
+        refresh: true
+        extConfig:
+          - dataId: logging-${spring.profiles.active}.yaml
+            group: COMMON_GROUP
+            refresh: true
+            type: yaml
+  profiles:
+    active: dev

@@ -5,11 +5,14 @@ spring:
     nacos:
       config:
         serverAddr: 127.0.0.1:8848
-        namespace: dev
+        namespace: ${spring.profiles.active}
         group: DEV_GROUP
         fileExtension: yaml
         refresh: true
-        name: content-service-dev
-# 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
+        extConfig:
+          - dataId: logging-${spring.profiles.active}.yaml
+            group: COMMON_GROUP
+            refresh: true
+            type: yaml
+  profiles:
+    active: dev
