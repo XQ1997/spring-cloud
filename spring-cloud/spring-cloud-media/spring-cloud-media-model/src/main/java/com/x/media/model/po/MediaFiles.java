@@ -23,7 +23,7 @@ public class MediaFiles implements Serializable {
      * 主键
      */
     @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    private String id;
 
     /**
      * 机构ID
@@ -104,5 +104,8 @@ public class MediaFiles implements Serializable {
      */
     private String auditMind;
 
-
+    /**
+     * 文件路径
+     */
+    private String filePath;
 }

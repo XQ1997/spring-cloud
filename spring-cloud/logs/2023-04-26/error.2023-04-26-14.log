@@ -1,0 +1,674 @@
+2023-04-26 14:02:20,400 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:04:01,282 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:07:19,359 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:08:46,759 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:09:20,872 ERROR [main][SpringApplication.java:858] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-api\target\classes\com\x\media\api\MediaFilesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-service\target\classes\com\x\media\service\impl\MediaFileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.x.MediaApplication.main(MediaApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-service\target\classes\com\x\media\service\impl\MediaFileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 33 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 47 more
+Caused by: java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at okhttp3.RequestBody$Companion.create(RequestBody.kt)
+	at okhttp3.RequestBody$Companion.create$default(RequestBody.kt:143)
+	at okhttp3.RequestBody.create(RequestBody.kt)
+	at io.minio.S3Base.<clinit>(S3Base.java:104)
+	at io.minio.MinioClient$Builder.<init>(MinioClient.java:2401)
+	at io.minio.MinioClient.builder(MinioClient.java:2393)
+	at com.x.media.config.MinioConfig.minioClient(MinioConfig.java:30)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$c55f0169.CGLIB$minioClient$0(<generated>)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$c55f0169$$FastClassBySpringCGLIB$$a9e3a605.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$c55f0169.minioClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 48 more
+Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 65 more
+2023-04-26 14:10:03,780 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:15:15,361 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:15:57,904 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:18:01,579 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:18:13,057 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:19:54,254 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:21:58,237 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:24:06,640 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:26:17,261 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:27:02,799 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:31:02,250 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:33:27,650 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:34:03,830 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:34:42,741 ERROR [main][SpringApplication.java:858] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-api\target\classes\com\x\media\api\MediaFilesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-service\target\classes\com\x\media\service\impl\MediaFileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.x.MediaApplication.main(MediaApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl' defined in file [E:\z-model\spring-cloud\spring-cloud\spring-cloud-media\spring-cloud-media-service\target\classes\com\x\media\service\impl\MediaFileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/x/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	... 33 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 47 more
+Caused by: java.lang.NoClassDefFoundError: kotlin/jvm/internal/Intrinsics
+	at okhttp3.RequestBody$Companion.create(RequestBody.kt)
+	at okhttp3.RequestBody$Companion.create$default(RequestBody.kt:143)
+	at okhttp3.RequestBody.create(RequestBody.kt)
+	at io.minio.S3Base.<clinit>(S3Base.java:104)
+	at io.minio.MinioClient$Builder.<init>(MinioClient.java:2401)
+	at io.minio.MinioClient.builder(MinioClient.java:2393)
+	at com.x.media.config.MinioConfig.minioClient(MinioConfig.java:30)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$652659a9.CGLIB$minioClient$0(<generated>)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$652659a9$$FastClassBySpringCGLIB$$5f8e39dd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.x.media.config.MinioConfig$$EnhancerBySpringCGLIB$$652659a9.minioClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 48 more
+Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 65 more
+2023-04-26 14:35:40,517 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:37:41,165 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:39:01,093 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:39:29,001 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:43:08,077 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:43:28,049 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 14:49:08,821 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+

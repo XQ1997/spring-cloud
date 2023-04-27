@@ -1,16 +1,20 @@
 package com.x.media.api;
 
+import com.x.base.exception.XueChengException;
 import com.x.base.model.PageParams;
 import com.x.base.model.PageResult;
+import com.x.base.model.RestResponse;
 import com.x.media.model.dto.QueryMediaParamsDto;
+import com.x.media.model.dto.UploadFileParamsDto;
+import com.x.media.model.dto.UploadFileResultDto;
 import com.x.media.model.po.MediaFiles;
 import com.x.media.service.MediaFileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @description 媒资文件管理接口
@@ -32,4 +36,41 @@ public class MediaFilesController {
           return mediaFileService.queryMediaFiles(companyId,pageParams,queryMediaParamsDto);
      }
 
+    @ApiOperation("上传文件")
+    @RequestMapping(value = "/upload/coursefile",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    @ResponseBody
+    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
+                                      @RequestParam(value="folder",required=false) String folder,
+                                      @RequestParam(value="objectName",required=false) String objectName) {
+        Long companyId = 1232141425L;
+        UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
+        String contentType = filedata.getContentType();
+        uploadFileParamsDto.setContentType(contentType);
+        uploadFileParamsDto.setFileSize(filedata.getSize());//文件大小
+        if (contentType.contains("image")) {
+            //是个图片
+            uploadFileParamsDto.setFileType("001001");
+        } else {
+            uploadFileParamsDto.setFileType("001003");
+        }
+        uploadFileParamsDto.setFilename(filedata.getOriginalFilename());//文件名称
+        UploadFileResultDto uploadFileResultDto = null;
+        try {
+            uploadFileResultDto = mediaFileService.uploadFile(companyId, filedata.getBytes(), uploadFileParamsDto, folder, objectName);
+        } catch (Exception e) {
+            XueChengException.cast("上传文件过程中出错");
+        }
+
+        return uploadFileResultDto;
+    }
+
+    @ApiOperation("预览文件")
+    @GetMapping("/preview/{mediaId}")
+    public RestResponse<String> getPlayUrlByMediaId(@PathVariable String mediaId){
+
+        //调用service查询文件的url
+
+        MediaFiles mediaFiles = mediaFileService.getFileById(mediaId);
+        return RestResponse.success(mediaFiles.getUrl());
+    }
 }

@@ -1,0 +1,420 @@
+2023-04-26 16:09:08,330 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:12:08,700 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:12:58,668 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:13:37,228 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:16:24,568 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:20:38,962 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:30:25,855 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:30:59,574 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:32:16,838 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:35:15,789 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:38:30,188 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:39:22,388 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:39:51,246 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:43:47,670 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:48:15,056 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:48:34,796 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:51:10,552 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:54:27,051 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:56:41,968 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+
+2023-04-26 16:58:28,846 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method kotlin.collections.ArraysKt.copyInto([B[BIII)[B but it does not exist. Its class, kotlin.collections.ArraysKt, is available from the following locations:
+
+    jar:file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar!/kotlin/collections/ArraysKt.class
+
+It was loaded from the following location:
+
+    file:/D:/respository/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of kotlin.collections.ArraysKt
+

@@ -79,7 +79,7 @@ public class MinioTest {
                             .bucket(bucket)
                             .object(filepath)
                             .build());
-                 FileOutputStream fileOutputStream = new FileOutputStream(new File(outFile));
+                 FileOutputStream fileOutputStream = new FileOutputStream(outFile);
             ) {
 
                 // Read data from stream
