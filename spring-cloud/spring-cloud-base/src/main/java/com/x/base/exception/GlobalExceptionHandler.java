@@ -25,7 +25,7 @@ import java.util.List;
 public class GlobalExceptionHandler {
 
 	/**此类一场是主动抛出的，可预知异常 HttpStatus.INTERNAL_SERVER_ERROR 返回500*/
-	/*@ResponseBody
+	@ResponseBody
 	@ExceptionHandler(XueChengException.class)
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 	public RestErrorResponse doXueChengException(XueChengException e) {
@@ -61,10 +61,10 @@ public class GlobalExceptionHandler {
 			errorMsg.append(error.getDefaultMessage()).append("!");
 		});
 		return new RestErrorResponse(errorMsg.toString());
-	}*/
+	}
 
 
-	/*@ResponseBody
+	@ResponseBody
 	@ExceptionHandler(Exception.class)
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 	public RestErrorResponse exception(Exception e) {
@@ -75,5 +75,5 @@ public class GlobalExceptionHandler {
 			return new RestErrorResponse("没有操作此功能的权限");
 		}
 		return new RestErrorResponse(CommonError.UNKOWN_ERROR.getErrMessage());
-	}*/
+	}
 }

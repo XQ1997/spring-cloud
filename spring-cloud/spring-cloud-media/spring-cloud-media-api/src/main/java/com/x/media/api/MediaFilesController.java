@@ -38,17 +38,15 @@ public class MediaFilesController {
 
     @ApiOperation("上传文件")
     @RequestMapping(value = "/upload/coursefile",consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
+    @ResponseBody
     public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
                                       @RequestParam(value="folder",required=false) String folder,
                                       @RequestParam(value="objectName",required=false) String objectName) {
-        System.out.println("测试");
          Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         String contentType = filedata.getContentType();
         uploadFileParamsDto.setContentType(contentType);
         uploadFileParamsDto.setFileSize(filedata.getSize());//文件大小
-        System.out.println(uploadFileParamsDto);
-        System.out.println(contentType);
         if (contentType.indexOf("image") >= 0) {
             //是个图片
             uploadFileParamsDto.setFileType("001001");

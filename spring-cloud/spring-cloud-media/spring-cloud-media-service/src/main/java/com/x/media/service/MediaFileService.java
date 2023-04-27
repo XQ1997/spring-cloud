@@ -42,4 +42,18 @@ public interface MediaFileService {
       * @date 2022/10/13 15:51
       */
      public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, byte[] bytes,String folder,String objectName);
+
+     /**
+      * @description 将文件信息添加到文件表 写入数据库  事务做细
+      * @param companyId  机构id
+      * @param fileMd5  文件md5值
+      * @param uploadFileParamsDto  上传文件的信息
+      * @param bucket  桶
+      * @param objectName 对象名称
+      * @return com.xuecheng.media.model.po.MediaFiles
+      * @author Mr.M
+      * @date 2022/10/12 21:22
+      */
+     @Transactional
+     public MediaFiles addMediaFilesToDatabase(Long companyId,String fileMd5,UploadFileParamsDto uploadFileParamsDto,String bucket,String objectName);
 }
