@@ -3,7 +3,7 @@ import { Message, MessageBox } from 'element-ui'
 import { getToken } from '@/utils/cookies'
 
 const service = axios.create({
-  baseURL: process.env.VUE_APP_SERVER_API_URL,
+  baseURL: '/api',
   timeout: 5000 * 5
 })
 service.defaults.headers.post['Content-Type'] = 'application/json'
