@@ -27,7 +27,7 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/9/10 8:57
       */
-     PageResult<MediaFiles> queryMediaFiles(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
+     public PageResult<MediaFiles> queryMediaFiles(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
 
 
      /**
@@ -41,21 +41,20 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/10/13 15:51
       */
-     UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, byte[] bytes,String folder,String objectName);
-
+     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, byte[] bytes,String folder,String objectName);
      /**
-      * @description 将文件信息添加到文件表 写入数据库  事务做细
-      * @param companyId  机构id
-      * @param fileMd5  文件md5值
-      * @param uploadFileParamsDto  上传文件的信息
-      * @param bucket  桶
-      * @param objectName 对象名称
+      * @param companyId
+      * @param fileId
+      * @param uploadFileParamsDto
+      * @param bucket
+      * @param objectName
       * @return com.xuecheng.media.model.po.MediaFiles
+      * @description 将文件信息入库
       * @author Mr.M
-      * @date 2022/10/12 21:22
+      * @date 2022/10/14 9:14
       */
      @Transactional
-     MediaFiles addMediaFilesToDatabase(Long companyId,String fileMd5,UploadFileParamsDto uploadFileParamsDto,String bucket,String objectName);
+     public MediaFiles addMediaFilesToDb(Long companyId, String fileId, UploadFileParamsDto uploadFileParamsDto, String bucket, String objectName);
 
      /**
       * @description 检查文件是否存在
@@ -64,7 +63,7 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/9/13 15:38
       */
-     RestResponse<Boolean> checkFile(String fileMd5);
+     public RestResponse<Boolean> checkFile(String fileMd5);
 
      /**
       * @description 检查分块是否存在
@@ -74,7 +73,7 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/9/13 15:39
       */
-     RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex);
+     public RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex);
 
      /**
       * @description 上传分块
@@ -85,7 +84,7 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/9/13 15:50
       */
-     RestResponse<Object> uploadChunk(String fileMd5, int chunk, byte[] bytes);
+     public RestResponse uploadChunk(String fileMd5,int chunk,byte[] bytes);
 
 
      /**
@@ -98,5 +97,24 @@ public interface MediaFileService {
       * @author Mr.M
       * @date 2022/9/13 15:56
       */
-     RestResponse<Object> mergechunks(Long companyId,String fileMd5,int chunkTotal,UploadFileParamsDto uploadFileParamsDto);
+     public RestResponse mergechunks(Long companyId,String fileMd5,int chunkTotal,UploadFileParamsDto uploadFileParamsDto);
+
+     /**
+      * @description 根据id查询文件信息
+      * @param id  文件id
+      * @return com.xuecheng.media.model.po.MediaFiles 文件信息
+      * @author Mr.M
+      * @date 2022/9/13 17:47
+      */
+     public MediaFiles getFileById(String id);
+
+     /**根据桶和文件路径从minio下载文件
+      * @param file  文件
+      * @param bucket 桶
+      * @param objectName 对象名
+      * @return 文件
+      */
+     public File downloadFileFromMinio(File file, String bucket, String objectName);
+
+     public void addMediaFilesToMinIO(String filePath, String bucket, String objectName);
 }
