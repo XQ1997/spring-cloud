@@ -40,7 +40,7 @@ public interface TeachplanService extends IService<Teachplan> {
      * 教学计划绑定媒资
      *
      * @param bindTeachplanMediaDto 教学计划-媒资管理绑定数据
-     * @return {@link com.xc.content.model.po.TeachplanMedia}
+     * @return {@link com.x.content.model.po.TeachplanMedia}
      * @author Mr.M
      * @since 2022/9/14 22:20
      */

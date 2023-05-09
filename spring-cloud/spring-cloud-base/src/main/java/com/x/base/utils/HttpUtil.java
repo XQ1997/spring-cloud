@@ -1,7 +1,7 @@
 package com.x.base.utils;
 
 import com.alibaba.fastjson.JSON;
-import com.xuecheng.base.model.RestResponse;
+import com.x.base.model.RestResponse;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;

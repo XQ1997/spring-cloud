@@ -82,11 +82,14 @@ public class TeachplanServiceImpl extends ServiceImpl<TeachplanMapper, Teachplan
     public TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
         // 获取教学计划 id
         Long teachplanId = bindTeachplanMediaDto.getTeachplanId();
+        //约束校验
+        //教学计划不存在无法绑定
         // 查询教学计划
         Teachplan teachplan = teachplanMapper.selectById(teachplanId);
         if (teachplan == null) {
             XueChengException.cast(String.format("教学计划 %s 不存在", teachplanId));
         }
+        //只有二级目录才可以绑定视频
         // 得到层级
         Integer grade = teachplan.getGrade();
         if (grade != 2) {
