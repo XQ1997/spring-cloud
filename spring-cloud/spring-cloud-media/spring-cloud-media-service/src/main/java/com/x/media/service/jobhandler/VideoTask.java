@@ -1,4 +1,3 @@
-/*
 package com.x.media.service.jobhandler;
 
 import com.x.base.util.Mp4VideoUtil;
@@ -37,11 +36,9 @@ public class VideoTask {
     @Value("${videoprocess.ffmpegpath}")
     String ffmpegpath;
 
-    */
-/**
-     * 视频处理任务
-     *//*
 
+    /**视频处理任务
+     */
     @XxlJob("videoJobHander")
     public void videoJobHander() throws Exception {
         // 分片序号，从0开始
@@ -160,4 +157,3 @@ public class VideoTask {
         return   fileMd5.substring(0,1) + "/" + fileMd5.substring(1,2) + "/" + fileMd5 + "/" +fileMd5 +fileExt;
     }
 }
-*/

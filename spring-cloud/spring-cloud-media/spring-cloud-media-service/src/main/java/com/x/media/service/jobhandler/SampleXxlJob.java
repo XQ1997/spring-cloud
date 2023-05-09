@@ -37,17 +37,17 @@ public class SampleXxlJob {
     public void demoJobHandler() throws Exception {
         XxlJobHelper.log("XXL-JOB, Hello World.");
 
-        /*for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {
             XxlJobHelper.log("beat at:" + i);
             TimeUnit.SECONDS.sleep(2);
-        }*/
+        }
         // default success
     }
 
     /**
      * 2、分片广播任务
      */
-    /*@XxlJob("shardingJobHandler")
+    @XxlJob("shardingJobHandler")
     public void shardingJobHandler() throws Exception {
         // 分片序号，从0开始
         int shardIndex = XxlJobHelper.getShardIndex();
@@ -55,5 +55,5 @@ public class SampleXxlJob {
         int shardTotal = XxlJobHelper.getShardTotal();
 
         System.out.println("==========shardIndex="+shardIndex+"=====shardTotal="+shardTotal+"====================");
-    }*/
+    }
 }
