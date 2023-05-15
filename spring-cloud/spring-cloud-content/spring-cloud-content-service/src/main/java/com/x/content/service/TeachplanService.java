@@ -26,7 +26,7 @@ public interface TeachplanService extends IService<Teachplan> {
      *	@author Mr.M
      * @date 2022/9/9 11:13
      */
-    List<TeachplanDto> findTeachplayTree(long courseId);
+    List<TeachplanDto> findTeachplanTree(long courseId);
 
     /**
      *	@description 只在课程计划
