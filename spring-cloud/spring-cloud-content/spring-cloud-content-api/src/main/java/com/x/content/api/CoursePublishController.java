@@ -23,22 +23,19 @@ public class CoursePublishController {
     @Autowired
     CoursePublishService coursePublishService;
 
-
+    @ApiOperation("课程预览")
     @GetMapping("/coursepreview/{courseId}")
     public ModelAndView preview(@PathVariable("courseId") Long courseId){
         //查询数据
         CoursePreviewDto coursePreviewInfo = coursePublishService.getCoursePreviewInfo(courseId);
-
-
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("model", coursePreviewInfo);
         modelAndView.setViewName("course_template");
         return modelAndView;
     }
 
-
-    //提交审核
-    /*@ResponseBody
+    @ApiOperation("提交审核")
+    @ResponseBody
     @PostMapping("/courseaudit/commit/{courseId}")
     public void commitAudit(@PathVariable("courseId") Long courseId) {
         Long companyId = 1232141425L;
@@ -49,9 +46,8 @@ public class CoursePublishController {
     @ResponseBody
     @PostMapping("/coursepublish/{courseId}")
     public void coursepublish(@PathVariable("courseId") Long courseId) {
-
         Long companyId = 1232141425L;
         coursePublishService.publish(companyId,courseId);
-    }*/
+    }
 
 }
