@@ -36,13 +36,14 @@ public class MediaFilesController {
           return mediaFileService.queryMediaFiles(companyId,pageParams,queryMediaParamsDto);
      }
 
-    @ApiOperation("上传文件")
-    @RequestMapping(value = "/upload/coursefile",consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
-    @ResponseBody
+    /*@ApiOperation("上传文件")
+    @RequestMapping(value = "/upload/coursefile", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
     public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
-                                      @RequestParam(value="folder",required=false) String folder,
-                                      @RequestParam(value="objectName",required=false) String objectName) {
-         Long companyId = 1232141425L;
+                                      @RequestParam(value = "folder",required=false) String folder,
+                                      @RequestParam(value= "objectName",required=false) String objectName) {
+
+        System.out.println("haha");
+        Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         String contentType = filedata.getContentType();
         uploadFileParamsDto.setContentType(contentType);
@@ -62,6 +63,37 @@ public class MediaFilesController {
         }
 
         return uploadFileResultDto;
+
+    }*/
+
+    @ApiOperation("上传文件")
+    @RequestMapping(value = "/upload/coursefile", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
+    public String upload(@RequestPart("filedata") MultipartFile filedata,
+                                      @RequestParam(value = "folder",required=false) String folder,
+                                      @RequestParam(value= "objectName",required=false) String objectName) {
+
+        System.out.println("haha");
+        Long companyId = 1232141425L;
+        UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
+        String contentType = filedata.getContentType();
+        uploadFileParamsDto.setContentType(contentType);
+        uploadFileParamsDto.setFileSize(filedata.getSize());//文件大小
+        if (contentType.indexOf("image") >= 0) {
+            //是个图片
+            uploadFileParamsDto.setFileType("001001");
+        } else {
+            uploadFileParamsDto.setFileType("001003");
+        }
+        uploadFileParamsDto.setFilename(filedata.getOriginalFilename());//文件名称
+        UploadFileResultDto uploadFileResultDto = null;
+        try {
+            uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, filedata.getBytes(), folder, objectName);
+        } catch (Exception e) {
+            XueChengException.cast("上传文件过程中出错");
+        }
+
+        return "haha";
+
     }
 
     @ApiOperation("预览文件")
@@ -72,5 +104,11 @@ public class MediaFilesController {
 
         MediaFiles mediaFiles = mediaFileService.getFileById(mediaId);
         return RestResponse.success(mediaFiles.getUrl());
+    }
+
+    @GetMapping("/greeting")
+    public String getGreeting() {
+        System.out.println("ss");
+        return "hello";
     }
 }

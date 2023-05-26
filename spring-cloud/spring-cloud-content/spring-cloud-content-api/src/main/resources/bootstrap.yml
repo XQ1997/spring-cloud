@@ -27,5 +27,9 @@ spring:
             group: COMMON_GROUP
             refresh: true
             type: yaml
+          - dataId: feign-${spring.profiles.active}.yaml
+            group: COMMON_GROUP
+            refresh: true
+            type: yaml
   profiles:
     active: dev

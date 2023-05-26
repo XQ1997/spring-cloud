@@ -1,5 +1,5 @@
 package com.x.content.service.jobhandler;
- 
+
 import com.x.messagesdk.model.po.MqMessage;
 import com.x.messagesdk.service.MessageProcessAbstract;
 import com.xxl.job.core.context.XxlJobHelper;

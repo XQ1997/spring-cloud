@@ -1,0 +1,1014 @@
+2023-05-20 12:00:50,729 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-05-20 12:00:50,729 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2023-05-20 12:00:51,200 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-20 12:00:51,200 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-20 12:00:51,268 INFO [main][GenericScope.java:294] - BeanFactory id=608f4618-6927-39b6-8505-f775239dfd72
+2023-05-20 12:00:51,268 INFO [main][GenericScope.java:294] - BeanFactory id=608f4618-6927-39b6-8505-f775239dfd72
+2023-05-20 12:00:51,311 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.x.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,311 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.x.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,378 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d25524ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,378 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d25524ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,401 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ee6f27a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,401 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ee6f27a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-20 12:00:51,471 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-05-20 12:00:51,471 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2023-05-20 12:00:51,594 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-05-20 12:00:51,594 INFO [main][DruidDataSource.java:998] - {dataSource-1} inited
+2023-05-20 12:00:51,658 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@54067fdc'
+2023-05-20 12:00:51,658 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@54067fdc'
+2023-05-20 12:00:51,659 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-05-20 12:00:51,659 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-05-20 12:00:52,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.insert
+2023-05-20 12:00:52,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.insert
+2023-05-20 12:00:52,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.delete
+2023-05-20 12:00:52,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.delete
+2023-05-20 12:00:52,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteByMap
+2023-05-20 12:00:52,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteByMap
+2023-05-20 12:00:52,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteById
+2023-05-20 12:00:52,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteById
+2023-05-20 12:00:52,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-05-20 12:00:52,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-05-20 12:00:52,151 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.update
+2023-05-20 12:00:52,151 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.update
+2023-05-20 12:00:52,154 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.updateById
+2023-05-20 12:00:52,154 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.updateById
+2023-05-20 12:00:52,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectById
+2023-05-20 12:00:52,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectById
+2023-05-20 12:00:52,157 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectBatchIds
+2023-05-20 12:00:52,157 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectBatchIds
+2023-05-20 12:00:52,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectByMap
+2023-05-20 12:00:52,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectByMap
+2023-05-20 12:00:52,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectOne
+2023-05-20 12:00:52,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectOne
+2023-05-20 12:00:52,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectCount
+2023-05-20 12:00:52,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectCount
+2023-05-20 12:00:52,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMaps
+2023-05-20 12:00:52,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMaps
+2023-05-20 12:00:52,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMapsPage
+2023-05-20 12:00:52,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectMapsPage
+2023-05-20 12:00:52,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectObjs
+2023-05-20 12:00:52,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectObjs
+2023-05-20 12:00:52,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectList
+2023-05-20 12:00:52,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectList
+2023-05-20 12:00:52,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectPage
+2023-05-20 12:00:52,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseBaseMapper.selectPage
+2023-05-20 12:00:52,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.insert
+2023-05-20 12:00:52,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.insert
+2023-05-20 12:00:52,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.delete
+2023-05-20 12:00:52,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.delete
+2023-05-20 12:00:52,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteByMap
+2023-05-20 12:00:52,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteByMap
+2023-05-20 12:00:52,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteById
+2023-05-20 12:00:52,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteById
+2023-05-20 12:00:52,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-05-20 12:00:52,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-05-20 12:00:52,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.update
+2023-05-20 12:00:52,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.update
+2023-05-20 12:00:52,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.updateById
+2023-05-20 12:00:52,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.updateById
+2023-05-20 12:00:52,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectById
+2023-05-20 12:00:52,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectById
+2023-05-20 12:00:52,223 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectBatchIds
+2023-05-20 12:00:52,223 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectBatchIds
+2023-05-20 12:00:52,226 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectByMap
+2023-05-20 12:00:52,226 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectByMap
+2023-05-20 12:00:52,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectOne
+2023-05-20 12:00:52,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectOne
+2023-05-20 12:00:52,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectCount
+2023-05-20 12:00:52,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectCount
+2023-05-20 12:00:52,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMaps
+2023-05-20 12:00:52,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMaps
+2023-05-20 12:00:52,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMapsPage
+2023-05-20 12:00:52,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectMapsPage
+2023-05-20 12:00:52,248 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectObjs
+2023-05-20 12:00:52,248 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectObjs
+2023-05-20 12:00:52,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectList
+2023-05-20 12:00:52,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectList
+2023-05-20 12:00:52,256 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectPage
+2023-05-20 12:00:52,256 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseMarketMapper.selectPage
+2023-05-20 12:00:52,275 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-05-20 12:00:52,275 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-05-20 12:00:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.insert
+2023-05-20 12:00:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.insert
+2023-05-20 12:00:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.delete
+2023-05-20 12:00:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.delete
+2023-05-20 12:00:52,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteByMap
+2023-05-20 12:00:52,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteByMap
+2023-05-20 12:00:52,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteById
+2023-05-20 12:00:52,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteById
+2023-05-20 12:00:52,293 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-05-20 12:00:52,293 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-05-20 12:00:52,296 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.update
+2023-05-20 12:00:52,296 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.update
+2023-05-20 12:00:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.updateById
+2023-05-20 12:00:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.updateById
+2023-05-20 12:00:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectById
+2023-05-20 12:00:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectById
+2023-05-20 12:00:52,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-05-20 12:00:52,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-05-20 12:00:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectByMap
+2023-05-20 12:00:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectByMap
+2023-05-20 12:00:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectOne
+2023-05-20 12:00:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectOne
+2023-05-20 12:00:52,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectCount
+2023-05-20 12:00:52,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectCount
+2023-05-20 12:00:52,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMaps
+2023-05-20 12:00:52,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMaps
+2023-05-20 12:00:52,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-05-20 12:00:52,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-05-20 12:00:52,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectObjs
+2023-05-20 12:00:52,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectObjs
+2023-05-20 12:00:52,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectList
+2023-05-20 12:00:52,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectList
+2023-05-20 12:00:52,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectPage
+2023-05-20 12:00:52,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseCategoryMapper.selectPage
+2023-05-20 12:00:52,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectTreeNodes
+2023-05-20 12:00:52,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectTreeNodes
+2023-05-20 12:00:52,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.insert
+2023-05-20 12:00:52,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.insert
+2023-05-20 12:00:52,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.delete
+2023-05-20 12:00:52,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.delete
+2023-05-20 12:00:52,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteByMap
+2023-05-20 12:00:52,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteByMap
+2023-05-20 12:00:52,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteById
+2023-05-20 12:00:52,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteById
+2023-05-20 12:00:52,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteBatchIds
+2023-05-20 12:00:52,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.deleteBatchIds
+2023-05-20 12:00:52,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.update
+2023-05-20 12:00:52,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.update
+2023-05-20 12:00:52,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.updateById
+2023-05-20 12:00:52,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.updateById
+2023-05-20 12:00:52,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectById
+2023-05-20 12:00:52,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectById
+2023-05-20 12:00:52,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectBatchIds
+2023-05-20 12:00:52,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectBatchIds
+2023-05-20 12:00:52,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectByMap
+2023-05-20 12:00:52,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectByMap
+2023-05-20 12:00:52,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectOne
+2023-05-20 12:00:52,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectOne
+2023-05-20 12:00:52,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectCount
+2023-05-20 12:00:52,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectCount
+2023-05-20 12:00:52,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMaps
+2023-05-20 12:00:52,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMaps
+2023-05-20 12:00:52,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMapsPage
+2023-05-20 12:00:52,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectMapsPage
+2023-05-20 12:00:52,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectObjs
+2023-05-20 12:00:52,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectObjs
+2023-05-20 12:00:52,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectList
+2023-05-20 12:00:52,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectList
+2023-05-20 12:00:52,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectPage
+2023-05-20 12:00:52,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMapper.selectPage
+2023-05-20 12:00:52,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.insert
+2023-05-20 12:00:52,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.insert
+2023-05-20 12:00:52,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.delete
+2023-05-20 12:00:52,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.delete
+2023-05-20 12:00:52,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-05-20 12:00:52,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-05-20 12:00:52,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteById
+2023-05-20 12:00:52,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteById
+2023-05-20 12:00:52,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-05-20 12:00:52,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-05-20 12:00:52,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.update
+2023-05-20 12:00:52,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.update
+2023-05-20 12:00:52,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.updateById
+2023-05-20 12:00:52,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.updateById
+2023-05-20 12:00:52,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectById
+2023-05-20 12:00:52,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectById
+2023-05-20 12:00:52,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-05-20 12:00:52,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-05-20 12:00:52,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectByMap
+2023-05-20 12:00:52,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectByMap
+2023-05-20 12:00:52,495 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectOne
+2023-05-20 12:00:52,495 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectOne
+2023-05-20 12:00:52,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectCount
+2023-05-20 12:00:52,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectCount
+2023-05-20 12:00:52,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMaps
+2023-05-20 12:00:52,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMaps
+2023-05-20 12:00:52,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-05-20 12:00:52,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-05-20 12:00:52,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectObjs
+2023-05-20 12:00:52,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectObjs
+2023-05-20 12:00:52,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectList
+2023-05-20 12:00:52,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectList
+2023-05-20 12:00:52,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectPage
+2023-05-20 12:00:52,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.TeachplanMediaMapper.selectPage
+2023-05-20 12:00:52,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.insert
+2023-05-20 12:00:52,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.insert
+2023-05-20 12:00:52,547 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.delete
+2023-05-20 12:00:52,547 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.delete
+2023-05-20 12:00:52,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-05-20 12:00:52,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-05-20 12:00:52,551 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteById
+2023-05-20 12:00:52,551 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteById
+2023-05-20 12:00:52,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-05-20 12:00:52,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-05-20 12:00:52,555 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.update
+2023-05-20 12:00:52,555 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.update
+2023-05-20 12:00:52,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.updateById
+2023-05-20 12:00:52,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.updateById
+2023-05-20 12:00:52,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectById
+2023-05-20 12:00:52,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectById
+2023-05-20 12:00:52,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-05-20 12:00:52,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-05-20 12:00:52,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectByMap
+2023-05-20 12:00:52,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectByMap
+2023-05-20 12:00:52,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectOne
+2023-05-20 12:00:52,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectOne
+2023-05-20 12:00:52,566 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectCount
+2023-05-20 12:00:52,566 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectCount
+2023-05-20 12:00:52,568 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectMaps
+2023-05-20 12:00:52,568 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectMaps
+2023-05-20 12:00:52,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-05-20 12:00:52,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-05-20 12:00:52,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectObjs
+2023-05-20 12:00:52,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectObjs
+2023-05-20 12:00:52,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectList
+2023-05-20 12:00:52,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectList
+2023-05-20 12:00:52,578 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectPage
+2023-05-20 12:00:52,578 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishPreMapper.selectPage
+2023-05-20 12:00:52,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.insert
+2023-05-20 12:00:52,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.insert
+2023-05-20 12:00:52,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.delete
+2023-05-20 12:00:52,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.delete
+2023-05-20 12:00:52,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteByMap
+2023-05-20 12:00:52,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteByMap
+2023-05-20 12:00:52,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteById
+2023-05-20 12:00:52,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteById
+2023-05-20 12:00:52,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-05-20 12:00:52,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-05-20 12:00:52,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.update
+2023-05-20 12:00:52,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.update
+2023-05-20 12:00:52,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.updateById
+2023-05-20 12:00:52,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.updateById
+2023-05-20 12:00:52,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectById
+2023-05-20 12:00:52,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectById
+2023-05-20 12:00:52,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectBatchIds
+2023-05-20 12:00:52,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectBatchIds
+2023-05-20 12:00:52,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectByMap
+2023-05-20 12:00:52,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectByMap
+2023-05-20 12:00:52,610 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectOne
+2023-05-20 12:00:52,610 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectOne
+2023-05-20 12:00:52,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectCount
+2023-05-20 12:00:52,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectCount
+2023-05-20 12:00:52,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectMaps
+2023-05-20 12:00:52,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectMaps
+2023-05-20 12:00:52,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectMapsPage
+2023-05-20 12:00:52,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectMapsPage
+2023-05-20 12:00:52,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectObjs
+2023-05-20 12:00:52,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectObjs
+2023-05-20 12:00:52,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectList
+2023-05-20 12:00:52,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectList
+2023-05-20 12:00:52,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectPage
+2023-05-20 12:00:52,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CoursePublishMapper.selectPage
+2023-05-20 12:00:52,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-05-20 12:00:52,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-05-20 12:00:52,658 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.insert
+2023-05-20 12:00:52,658 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.insert
+2023-05-20 12:00:52,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.delete
+2023-05-20 12:00:52,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.delete
+2023-05-20 12:00:52,663 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-05-20 12:00:52,663 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-05-20 12:00:52,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteById
+2023-05-20 12:00:52,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteById
+2023-05-20 12:00:52,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-05-20 12:00:52,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-05-20 12:00:52,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.update
+2023-05-20 12:00:52,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.update
+2023-05-20 12:00:52,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.updateById
+2023-05-20 12:00:52,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.updateById
+2023-05-20 12:00:52,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectById
+2023-05-20 12:00:52,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectById
+2023-05-20 12:00:52,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-05-20 12:00:52,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-05-20 12:00:52,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-05-20 12:00:52,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-05-20 12:00:52,686 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectOne
+2023-05-20 12:00:52,686 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectOne
+2023-05-20 12:00:52,690 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectCount
+2023-05-20 12:00:52,690 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectCount
+2023-05-20 12:00:52,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-05-20 12:00:52,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-05-20 12:00:52,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-05-20 12:00:52,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-05-20 12:00:52,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-05-20 12:00:52,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-05-20 12:00:52,704 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectList
+2023-05-20 12:00:52,704 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectList
+2023-05-20 12:00:52,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectPage
+2023-05-20 12:00:52,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageMapper.selectPage
+2023-05-20 12:00:52,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-05-20 12:00:52,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-05-20 12:00:52,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-05-20 12:00:52,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-05-20 12:00:52,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-05-20 12:00:52,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-05-20 12:00:52,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-05-20 12:00:52,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-05-20 12:00:52,737 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-05-20 12:00:52,737 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-05-20 12:00:52,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-05-20 12:00:52,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-05-20 12:00:52,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-05-20 12:00:52,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-05-20 12:00:52,741 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-05-20 12:00:52,741 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-05-20 12:00:52,743 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-05-20 12:00:52,743 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-05-20 12:00:52,745 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-05-20 12:00:52,745 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-05-20 12:00:52,747 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-05-20 12:00:52,747 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-05-20 12:00:52,749 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-05-20 12:00:52,749 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-05-20 12:00:52,751 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-05-20 12:00:52,751 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-05-20 12:00:52,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-05-20 12:00:52,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-05-20 12:00:52,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-05-20 12:00:52,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-05-20 12:00:52,757 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-05-20 12:00:52,757 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-05-20 12:00:52,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-05-20 12:00:52,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-05-20 12:00:52,802 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-05-20 12:00:52,802 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-05-20 12:00:52,867 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-05-20 12:00:52,867 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-05-20 12:00:52,868 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-05-20 12:00:52,868 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-05-20 12:00:52,876 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-05-20 12:00:52,876 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-05-20 12:00:52,877 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-05-20 12:00:52,877 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-05-20 12:00:53,274 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-05-20 12:00:53,274 INFO [main][InitUtils.java:56] - initializer namespace from System Property :null
+2023-05-20 12:00:53,274 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-05-20 12:00:53,274 INFO [main][InitUtils.java:65] - initializer namespace from System Environment :null
+2023-05-20 12:00:53,275 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-05-20 12:00:53,275 INFO [main][InitUtils.java:75] - initializer namespace from System Property :null
+2023-05-20 12:00:53,282 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-05-20 12:00:53,282 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:110] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-05-20 12:00:53,301 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-05-20 12:00:53,301 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+2023-05-20 12:00:53,837 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-05-20 12:00:53,837 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-05-20 12:00:53,838 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-05-20 12:00:53,838 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+2023-05-20 12:00:53,844 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-05-20 12:00:53,844 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-05-20 12:00:53,846 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-05-20 12:00:53,846 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-05-20 12:00:53,846 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-05-20 12:00:53,846 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-05-20 12:00:53,847 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-05-20 12:00:53,847 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-05-20 12:00:53,848 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-05-20 12:00:53,848 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-05-20 12:00:53,848 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-05-20 12:00:53,848 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-05-20 12:00:53,849 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-05-20 12:00:53,849 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-05-20 12:00:53,849 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-05-20 12:00:53,849 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-05-20 12:00:53,850 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-05-20 12:00:53,850 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-05-20 12:00:53,857 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-05-20 12:00:53,857 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-05-20 12:00:53,858 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-05-20 12:00:53,859 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-05-20 12:00:53,859 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-05-20 12:00:54,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.insert
+2023-05-20 12:00:54,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.insert
+2023-05-20 12:00:54,836 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.delete
+2023-05-20 12:00:54,836 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.delete
+2023-05-20 12:00:54,837 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteByMap
+2023-05-20 12:00:54,837 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteByMap
+2023-05-20 12:00:54,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteById
+2023-05-20 12:00:54,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteById
+2023-05-20 12:00:54,839 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-05-20 12:00:54,839 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-05-20 12:00:54,841 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.update
+2023-05-20 12:00:54,841 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.update
+2023-05-20 12:00:54,844 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.updateById
+2023-05-20 12:00:54,844 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.updateById
+2023-05-20 12:00:54,844 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectById
+2023-05-20 12:00:54,844 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectById
+2023-05-20 12:00:54,846 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-05-20 12:00:54,846 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-05-20 12:00:54,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectByMap
+2023-05-20 12:00:54,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectByMap
+2023-05-20 12:00:54,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectOne
+2023-05-20 12:00:54,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectOne
+2023-05-20 12:00:54,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectCount
+2023-05-20 12:00:54,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectCount
+2023-05-20 12:00:54,859 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMaps
+2023-05-20 12:00:54,859 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMaps
+2023-05-20 12:00:54,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-05-20 12:00:54,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-05-20 12:00:54,863 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectObjs
+2023-05-20 12:00:54,863 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectObjs
+2023-05-20 12:00:54,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectList
+2023-05-20 12:00:54,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectList
+2023-05-20 12:00:54,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectPage
+2023-05-20 12:00:54,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.x.content.mapper.CourseTeacherMapper.selectPage
+2023-05-20 12:00:54,893 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4fd74223[class com.x.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2023-05-20 12:00:54,893 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4fd74223[class com.x.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2023-05-20 12:00:55,000 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-20 12:00:55,000 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-20 12:00:55,056 DEBUG [Thread-13][Slf4JLogger.java:71] - Using SLF4J as the default logging framework
+2023-05-20 12:00:55,056 DEBUG [Thread-13][Slf4JLogger.java:71] - Using SLF4J as the default logging framework
+2023-05-20 12:00:55,059 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.eventLoopThreads: 24
+2023-05-20 12:00:55,059 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.eventLoopThreads: 24
+2023-05-20 12:00:55,066 INFO [main][StartupInfoLogger.java:59] - Started MeidaClientTest in 6.355 seconds (JVM running for 7.504)
+2023-05-20 12:00:55,066 INFO [main][StartupInfoLogger.java:59] - Started MeidaClientTest in 6.355 seconds (JVM running for 7.504)
+2023-05-20 12:00:55,073 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] feign-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,073 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] feign-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,075 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,075 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,086 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service-dev.yaml+DEV_GROUP+dev
+2023-05-20 12:00:55,086 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service-dev.yaml+DEV_GROUP+dev
+2023-05-20 12:00:55,086 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-05-20 12:00:55,086 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=DEV_GROUP, cnt=1
+2023-05-20 12:00:55,088 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] logging-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,088 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] logging-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,089 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,089 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,090 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noKeySetOptimization: false
+2023-05-20 12:00:55,090 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noKeySetOptimization: false
+2023-05-20 12:00:55,090 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-20 12:00:55,090 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-20 12:00:55,096 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] freemarker-config-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,096 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] freemarker-config-dev.yaml+COMMON_GROUP+dev
+2023-05-20 12:00:55,096 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,096 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=COMMON_GROUP, cnt=1
+2023-05-20 12:00:55,097 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service.yaml+DEV_GROUP+dev
+2023-05-20 12:00:55,097 INFO [main][ClientWorker.java:202] - [fixed-127.0.0.1_8848-dev] [subscribe] content-service.yaml+DEV_GROUP+dev
+2023-05-20 12:00:55,097 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service.yaml, group=DEV_GROUP, cnt=1
+2023-05-20 12:00:55,097 INFO [main][CacheData.java:79] - [fixed-127.0.0.1_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service.yaml, group=DEV_GROUP, cnt=1
+2023-05-20 12:00:55,113 DEBUG [Thread-13][Slf4JLogger.java:71] - Platform: Windows
+2023-05-20 12:00:55,113 DEBUG [Thread-13][Slf4JLogger.java:71] - Platform: Windows
+2023-05-20 12:00:55,116 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noUnsafe: false
+2023-05-20 12:00:55,116 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noUnsafe: false
+2023-05-20 12:00:55,116 DEBUG [Thread-13][Slf4JLogger.java:76] - Java version: 8
+2023-05-20 12:00:55,116 DEBUG [Thread-13][Slf4JLogger.java:76] - Java version: 8
+2023-05-20 12:00:55,117 DEBUG [Thread-13][Slf4JLogger.java:71] - sun.misc.Unsafe.theUnsafe: available
+2023-05-20 12:00:55,117 DEBUG [Thread-13][Slf4JLogger.java:71] - sun.misc.Unsafe.theUnsafe: available
+2023-05-20 12:00:55,117 DEBUG [Thread-13][Slf4JLogger.java:71] - sun.misc.Unsafe.copyMemory: available
+2023-05-20 12:00:55,117 DEBUG [Thread-13][Slf4JLogger.java:71] - sun.misc.Unsafe.copyMemory: available
+2023-05-20 12:00:55,118 DEBUG [Thread-13][Slf4JLogger.java:71] - java.nio.Buffer.address: available
+2023-05-20 12:00:55,118 DEBUG [Thread-13][Slf4JLogger.java:71] - java.nio.Buffer.address: available
+2023-05-20 12:00:55,118 DEBUG [Thread-13][Slf4JLogger.java:71] - direct buffer constructor: available
+2023-05-20 12:00:55,118 DEBUG [Thread-13][Slf4JLogger.java:71] - direct buffer constructor: available
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:76] - java.nio.Bits.unaligned: available, true
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:76] - java.nio.Bits.unaligned: available, true
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:71] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:71] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:76] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-05-20 12:00:55,119 DEBUG [Thread-13][Slf4JLogger.java:76] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-05-20 12:00:55,120 DEBUG [Thread-13][Slf4JLogger.java:76] - sun.misc.Unsafe: available
+2023-05-20 12:00:55,120 DEBUG [Thread-13][Slf4JLogger.java:76] - sun.misc.Unsafe: available
+2023-05-20 12:00:55,120 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.tmpdir: C:\Users\hp\AppData\Local\Temp (java.io.tmpdir)
+2023-05-20 12:00:55,120 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.tmpdir: C:\Users\hp\AppData\Local\Temp (java.io.tmpdir)
+2023-05-20 12:00:55,121 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-20 12:00:55,121 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-20 12:00:55,121 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noPreferDirect: false
+2023-05-20 12:00:55,121 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.noPreferDirect: false
+2023-05-20 12:00:55,123 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.maxDirectMemory: 3655860224 bytes
+2023-05-20 12:00:55,123 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.maxDirectMemory: 3655860224 bytes
+2023-05-20 12:00:55,123 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-20 12:00:55,123 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-20 12:00:55,124 DEBUG [Thread-13][Slf4JLogger.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-05-20 12:00:55,124 DEBUG [Thread-13][Slf4JLogger.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-05-20 12:00:55,132 DEBUG [Thread-13][Slf4JLogger.java:71] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-20 12:00:55,132 DEBUG [Thread-13][Slf4JLogger.java:71] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-20 12:00:55,190 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.processId: 9672 (auto-detected)
+2023-05-20 12:00:55,190 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.processId: 9672 (auto-detected)
+2023-05-20 12:00:55,193 DEBUG [Thread-13][Slf4JLogger.java:76] - -Djava.net.preferIPv4Stack: false
+2023-05-20 12:00:55,193 DEBUG [Thread-13][Slf4JLogger.java:76] - -Djava.net.preferIPv4Stack: false
+2023-05-20 12:00:55,193 DEBUG [Thread-13][Slf4JLogger.java:76] - -Djava.net.preferIPv6Addresses: false
+2023-05-20 12:00:55,193 DEBUG [Thread-13][Slf4JLogger.java:76] - -Djava.net.preferIPv6Addresses: false
+2023-05-20 12:00:55,279 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+2023-05-20 12:00:55,279 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+2023-05-20 12:00:55,288 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.enabled to use NEXT property: hystrix.command.default.circuitBreaker.enabled = true
+2023-05-20 12:00:55,288 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.enabled to use NEXT property: hystrix.command.default.circuitBreaker.enabled = true
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.requestVolumeThreshold to use NEXT property: hystrix.command.default.circuitBreaker.requestVolumeThreshold = 20
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.requestVolumeThreshold to use NEXT property: hystrix.command.default.circuitBreaker.requestVolumeThreshold = 20
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.sleepWindowInMilliseconds to use NEXT property: hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds = 5000
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.sleepWindowInMilliseconds to use NEXT property: hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds = 5000
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.errorThresholdPercentage to use NEXT property: hystrix.command.default.circuitBreaker.errorThresholdPercentage = 50
+2023-05-20 12:00:55,289 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.errorThresholdPercentage to use NEXT property: hystrix.command.default.circuitBreaker.errorThresholdPercentage = 50
+2023-05-20 12:00:55,290 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.forceOpen to use NEXT property: hystrix.command.default.circuitBreaker.forceOpen = false
+2023-05-20 12:00:55,290 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.forceOpen to use NEXT property: hystrix.command.default.circuitBreaker.forceOpen = false
+2023-05-20 12:00:55,290 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.forceClosed to use NEXT property: hystrix.command.default.circuitBreaker.forceClosed = false
+2023-05-20 12:00:55,290 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).circuitBreaker.forceClosed to use NEXT property: hystrix.command.default.circuitBreaker.forceClosed = false
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.strategy to use NEXT property: hystrix.command.default.execution.isolation.strategy = THREAD
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.strategy to use NEXT property: hystrix.command.default.execution.isolation.strategy = THREAD
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.timeoutInMilliseconds to use NEXT property: hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds = 1000
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.timeoutInMilliseconds to use NEXT property: hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds = 1000
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.timeout.enabled to use NEXT property: hystrix.command.default.execution.timeout.enabled = true
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.timeout.enabled to use NEXT property: hystrix.command.default.execution.timeout.enabled = true
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.interruptOnTimeout to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnTimeout = true
+2023-05-20 12:00:55,291 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.interruptOnTimeout to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnTimeout = true
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.interruptOnFutureCancel to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnFutureCancel = false
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.thread.interruptOnFutureCancel to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnFutureCancel = false
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.execution.isolation.semaphore.maxConcurrentRequests = 10
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).execution.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.execution.isolation.semaphore.maxConcurrentRequests = 10
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).fallback.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.fallback.isolation.semaphore.maxConcurrentRequests = 10
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).fallback.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.fallback.isolation.semaphore.maxConcurrentRequests = 10
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).fallback.enabled to use NEXT property: hystrix.command.default.fallback.enabled = true
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).fallback.enabled to use NEXT property: hystrix.command.default.fallback.enabled = true
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingStats.timeInMilliseconds = 10000
+2023-05-20 12:00:55,293 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingStats.timeInMilliseconds = 10000
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingStats.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingStats.numBuckets = 10
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingStats.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingStats.numBuckets = 10
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.enabled to use NEXT property: hystrix.command.default.metrics.rollingPercentile.enabled = true
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.enabled to use NEXT property: hystrix.command.default.metrics.rollingPercentile.enabled = true
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingPercentile.timeInMilliseconds = 60000
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingPercentile.timeInMilliseconds = 60000
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingPercentile.numBuckets = 6
+2023-05-20 12:00:55,294 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingPercentile.numBuckets = 6
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.bucketSize to use NEXT property: hystrix.command.default.metrics.rollingPercentile.bucketSize = 100
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.rollingPercentile.bucketSize to use NEXT property: hystrix.command.default.metrics.rollingPercentile.bucketSize = 100
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.healthSnapshot.intervalInMilliseconds to use NEXT property: hystrix.command.default.metrics.healthSnapshot.intervalInMilliseconds = 500
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).metrics.healthSnapshot.intervalInMilliseconds to use NEXT property: hystrix.command.default.metrics.healthSnapshot.intervalInMilliseconds = 500
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).requestCache.enabled to use NEXT property: hystrix.command.default.requestCache.enabled = true
+2023-05-20 12:00:55,295 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).requestCache.enabled to use NEXT property: hystrix.command.default.requestCache.enabled = true
+2023-05-20 12:00:55,296 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).requestLog.enabled to use NEXT property: hystrix.command.default.requestLog.enabled = true
+2023-05-20 12:00:55,296 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.MediaServiceClient#upload(MultipartFile,String,String).requestLog.enabled to use NEXT property: hystrix.command.default.requestLog.enabled = true
+2023-05-20 12:00:55,455 DEBUG [Thread-13][Slf4JLogger.java:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-20 12:00:55,455 DEBUG [Thread-13][Slf4JLogger.java:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-20 12:00:55,456 DEBUG [Thread-13][Slf4JLogger.java:81] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-20 12:00:55,456 DEBUG [Thread-13][Slf4JLogger.java:81] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-20 12:00:55,555 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.allowMaximumSizeToDivergeFromCoreSize to use NEXT property: hystrix.threadpool.default.allowMaximumSizeToDivergeFromCoreSize = false
+2023-05-20 12:00:55,555 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.allowMaximumSizeToDivergeFromCoreSize to use NEXT property: hystrix.threadpool.default.allowMaximumSizeToDivergeFromCoreSize = false
+2023-05-20 12:00:55,555 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.coreSize to use NEXT property: hystrix.threadpool.default.coreSize = 10
+2023-05-20 12:00:55,555 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.coreSize to use NEXT property: hystrix.threadpool.default.coreSize = 10
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.maximumSize to use NEXT property: hystrix.threadpool.default.maximumSize = 10
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.maximumSize to use NEXT property: hystrix.threadpool.default.maximumSize = 10
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.keepAliveTimeMinutes to use NEXT property: hystrix.threadpool.default.keepAliveTimeMinutes = 1
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.keepAliveTimeMinutes to use NEXT property: hystrix.threadpool.default.keepAliveTimeMinutes = 1
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.maxQueueSize to use NEXT property: hystrix.threadpool.default.maxQueueSize = -1
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.maxQueueSize to use NEXT property: hystrix.threadpool.default.maxQueueSize = -1
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.queueSizeRejectionThreshold to use NEXT property: hystrix.threadpool.default.queueSizeRejectionThreshold = 5
+2023-05-20 12:00:55,556 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.queueSizeRejectionThreshold to use NEXT property: hystrix.threadpool.default.queueSizeRejectionThreshold = 5
+2023-05-20 12:00:55,557 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.timeInMilliseconds = 10000
+2023-05-20 12:00:55,557 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.timeInMilliseconds = 10000
+2023-05-20 12:00:55,557 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.metrics.rollingStats.numBuckets to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.numBuckets = 10
+2023-05-20 12:00:55,557 DEBUG [main][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.media-api.metrics.rollingStats.numBuckets to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.numBuckets = 10
+2023-05-20 12:00:55,623 DEBUG [hystrix-media-api-1][Slf4jLogger.java:72] - [MediaServiceClient#upload] ---> GET http://media-api/upload/coursefile?folder=course&objectName=test.html HTTP/1.1
+2023-05-20 12:00:55,623 DEBUG [hystrix-media-api-1][Slf4jLogger.java:72] - [MediaServiceClient#upload] ---> GET http://media-api/upload/coursefile?folder=course&objectName=test.html HTTP/1.1
+2023-05-20 12:00:55,691 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.machineId: ec:63:d7:ff:fe:6c:e7:f1 (auto-detected)
+2023-05-20 12:00:55,691 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.machineId: ec:63:d7:ff:fe:6c:e7:f1 (auto-detected)
+2023-05-20 12:00:55,698 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-20 12:00:55,698 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-20 12:00:55,699 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-20 12:00:55,699 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-20 12:00:55,711 DEBUG [Thread-13][Slf4JLogger.java:81] - -Dio.netty.leakDetection.level: simple
+2023-05-20 12:00:55,711 DEBUG [Thread-13][Slf4JLogger.java:81] - -Dio.netty.leakDetection.level: simple
+2023-05-20 12:00:55,711 DEBUG [Thread-13][Slf4JLogger.java:81] - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-20 12:00:55,711 DEBUG [Thread-13][Slf4JLogger.java:81] - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.numHeapArenas: 24
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.numHeapArenas: 24
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.numDirectArenas: 24
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.numDirectArenas: 24
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.pageSize: 8192
+2023-05-20 12:00:55,741 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.pageSize: 8192
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.maxOrder: 11
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.maxOrder: 11
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.chunkSize: 16777216
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.chunkSize: 16777216
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-20 12:00:55,743 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-20 12:00:55,744 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-05-20 12:00:55,744 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-05-20 12:00:55,753 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2023-05-20 12:00:55,753 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2023-05-20 12:00:55,753 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2023-05-20 12:00:55,753 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2023-05-20 12:00:55,754 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2023-05-20 12:00:55,754 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2023-05-20 12:00:55,755 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2023-05-20 12:00:55,755 DEBUG [hystrix-media-api-1][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2023-05-20 12:00:55,755 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.type: pooled
+2023-05-20 12:00:55,755 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.allocator.type: pooled
+2023-05-20 12:00:55,756 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-20 12:00:55,756 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-20 12:00:55,756 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-20 12:00:55,756 DEBUG [Thread-13][Slf4JLogger.java:76] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-20 12:00:55,767 ERROR [Thread-13][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:130)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1358)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1019)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:366)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-20 12:00:55,767 ERROR [Thread-13][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:130)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1358)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1019)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:366)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-20 12:00:55,795 INFO [hystrix-media-api-1][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-05-20 12:00:55,795 INFO [hystrix-media-api-1][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-05-20 12:00:55,818 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:338] - LoadBalancer [media-api]:  pingIntervalSeconds set to 30
+2023-05-20 12:00:55,818 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:338] - LoadBalancer [media-api]:  pingIntervalSeconds set to 30
+2023-05-20 12:00:55,819 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:356] - LoadBalancer [media-api]: maxTotalPingTime set to 2
+2023-05-20 12:00:55,819 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:356] - LoadBalancer [media-api]: maxTotalPingTime set to 2
+2023-05-20 12:00:55,821 INFO [hystrix-media-api-1][BaseLoadBalancer.java:197] - Client: media-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-05-20 12:00:55,821 INFO [hystrix-media-api-1][BaseLoadBalancer.java:197] - Client: media-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-05-20 12:00:55,827 INFO [hystrix-media-api-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2023-05-20 12:00:55,827 INFO [hystrix-media-api-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2023-05-20 12:00:55,832 DEBUG [hystrix-media-api-1][HostReactor.java:215] - failover-mode: false
+2023-05-20 12:00:55,832 DEBUG [hystrix-media-api-1][HostReactor.java:215] - failover-mode: false
+2023-05-20 12:00:55,835 ERROR [hystrix-media-api-1][HostReactor.java:275] - [NA] failed to update serviceName: DEFAULT_GROUP@@media-api
+java.lang.IllegalArgumentException: no server available
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:438)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:297)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:270)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:229)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:342)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:334)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:323)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:301)
+	at com.alibaba.cloud.nacos.ribbon.NacosServerList.getServers(NacosServerList.java:55)
+	at com.alibaba.cloud.nacos.ribbon.NacosServerList.getUpdatedListOfServers(NacosServerList.java:49)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:240)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.restOfInit(DynamicServerListLoadBalancer.java:144)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.<init>(DynamicServerListLoadBalancer.java:95)
+	at com.netflix.loadbalancer.ZoneAwareLoadBalancer.<init>(ZoneAwareLoadBalancer.java:82)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration.ribbonLoadBalancer(RibbonClientConfiguration.java:139)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea.CGLIB$ribbonLoadBalancer$7(<generated>)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea$$FastClassBySpringCGLIB$$9bd40eea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea.ribbonLoadBalancer(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.cloud.context.named.NamedContextFactory.createContext(NamedContextFactory.java:120)
+	at org.springframework.cloud.context.named.NamedContextFactory.getContext(NamedContextFactory.java:88)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getContext(SpringClientFactory.java:118)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstance(NamedContextFactory.java:129)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getInstance(SpringClientFactory.java:108)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getClientConfig(SpringClientFactory.java:65)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.getClientConfig(LoadBalancerFeignClient.java:80)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:64)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:106)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-20 12:00:55,835 ERROR [hystrix-media-api-1][HostReactor.java:275] - [NA] failed to update serviceName: DEFAULT_GROUP@@media-api
+java.lang.IllegalArgumentException: no server available
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:438)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:297)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:270)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:229)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:342)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:334)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:323)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:301)
+	at com.alibaba.cloud.nacos.ribbon.NacosServerList.getServers(NacosServerList.java:55)
+	at com.alibaba.cloud.nacos.ribbon.NacosServerList.getUpdatedListOfServers(NacosServerList.java:49)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:240)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.restOfInit(DynamicServerListLoadBalancer.java:144)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.<init>(DynamicServerListLoadBalancer.java:95)
+	at com.netflix.loadbalancer.ZoneAwareLoadBalancer.<init>(ZoneAwareLoadBalancer.java:82)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration.ribbonLoadBalancer(RibbonClientConfiguration.java:139)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea.CGLIB$ribbonLoadBalancer$7(<generated>)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea$$FastClassBySpringCGLIB$$9bd40eea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration$$EnhancerBySpringCGLIB$$ae0648ea.ribbonLoadBalancer(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.cloud.context.named.NamedContextFactory.createContext(NamedContextFactory.java:120)
+	at org.springframework.cloud.context.named.NamedContextFactory.getContext(NamedContextFactory.java:88)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getContext(SpringClientFactory.java:118)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstance(NamedContextFactory.java:129)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getInstance(SpringClientFactory.java:108)
+	at org.springframework.cloud.netflix.ribbon.SpringClientFactory.getClientConfig(SpringClientFactory.java:65)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.getClientConfig(LoadBalancerFeignClient.java:80)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:64)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:106)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-20 12:00:55,838 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: []
+2023-05-20 12:00:55,838 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: []
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: []
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: []
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-05-20 12:00:55,839 DEBUG [hystrix-media-api-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-05-20 12:00:55,841 INFO [hystrix-media-api-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client media-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4c711db8
+2023-05-20 12:00:55,841 INFO [hystrix-media-api-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client media-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4c711db8
+2023-05-20 12:00:55,870 DEBUG [hystrix-media-api-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2023-05-20 12:00:55,870 DEBUG [hystrix-media-api-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2023-05-20 12:00:55,877 DEBUG [hystrix-media-api-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2023-05-20 12:00:55,877 DEBUG [hystrix-media-api-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2023-05-20 12:00:55,880 DEBUG [hystrix-media-api-1][AbstractCommand.java:1027] - Error executing HystrixCommand.run(). Proceeding to fallback logic ...
+java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:106)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
+	... 32 more
+2023-05-20 12:00:55,880 DEBUG [hystrix-media-api-1][AbstractCommand.java:1027] - Error executing HystrixCommand.run(). Proceeding to fallback logic ...
+java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:106)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
+	... 32 more
+2023-05-20 12:00:55,888 DEBUG [hystrix-media-api-1][MediaServiceClientFallbackFactory.java:28] - 调用媒资管理服务上传文件时发生熔断，异常信息:com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+2023-05-20 12:00:55,888 DEBUG [hystrix-media-api-1][MediaServiceClientFallbackFactory.java:28] - 调用媒资管理服务上传文件时发生熔断，异常信息:com.netflix.client.ClientException: Load balancer does not have available server for client: media-api
+2023-05-20 12:00:55,910 INFO [Thread-18][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-05-20 12:00:55,910 INFO [Thread-18][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-05-20 12:00:55,912 INFO [Thread-14][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-20 12:00:55,912 INFO [Thread-14][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-20 12:00:55,928 INFO [Thread-14][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-05-20 12:00:55,928 INFO [Thread-14][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-05-20 12:00:55,929 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2023-05-20 12:00:55,929 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2023-05-20 12:00:55,929 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2023-05-20 12:00:55,929 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2023-05-20 12:00:55,930 INFO [Thread-12][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2023-05-20 12:00:55,930 INFO [Thread-12][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2023-05-20 12:00:55,930 INFO [Thread-14][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-05-20 12:00:55,930 INFO [Thread-14][DruidDataSource.java:2071] - {dataSource-1} closing ...
+2023-05-20 12:00:55,931 INFO [Thread-14][DruidDataSource.java:2144] - {dataSource-1} closed
+2023-05-20 12:00:55,931 INFO [Thread-14][DruidDataSource.java:2144] - {dataSource-1} closed
