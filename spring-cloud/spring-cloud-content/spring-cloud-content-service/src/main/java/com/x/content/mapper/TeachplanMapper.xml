@@ -26,7 +26,6 @@
     <sql id="Base_Column_List">
         id, pname, parentid, grade, media_type, start_time, end_time, description, timelength, orderby, course_id, course_pub_id, status, is_preview, create_date, change_date
     </sql>
-
     <resultMap id="selectTreeNodesMap" type="com.x.content.model.dto.TeachplanDto">
         <id column="one_id" property="id"></id>
         <result column="one_pname" property="pname"></result>
@@ -38,6 +37,11 @@
         <result column="one_orderby"   property="orderby" />
         <result column="one_courseId"   property="courseId" />
         <result column="one_coursePubId"   property="coursePubId" />
+        <association property="teachplanMedia" javaType="com.x.content.model.po.TeachplanMedia">
+            <id column="teachplanMeidaId" property="id"></id>
+            <result column="mediaFilename" property="mediaFilename"></result>
+            <result column="mediaId" property="mediaId"></result>
+        </association>
         <collection property="teachPlanTreeNodes" ofType="com.x.content.model.dto.TeachplanDto">
             <id column="two_id" property="id"></id>
             <result column="two_pname" property="pname"></result>
@@ -49,16 +53,10 @@
             <result column="two_orderby"   property="orderby" />
             <result column="two_courseId"   property="courseId" />
             <result column="two_coursePubId"   property="coursePubId" />
-            <association property="teachplanMedia" javaType="com.x.content.model.po.TeachplanMedia">
-                <id column="teachplanMeidaId" property="id"></id>
-                <result column="mediaFilename" property="mediaFilename"></result>
-                <result column="mediaId" property="mediaId"></result>
-            </association>
         </collection>
-
     </resultMap>
 
-    <select id="selectTreeNodes" parameterType="long" resultMap="selectTreeNodesMap">
+    <select id="selectTreeNodes" parameterType="Long" resultMap="selectTreeNodesMap">
 
         SELECT
             one.id one_id,
@@ -86,11 +84,12 @@
             m.media_id mediaId
         FROM
             teachplan one
-                INNER JOIN teachplan two ON two.parentid = one.id
+                LEFT JOIN teachplan two ON two.parentid = one.id
                 LEFT JOIN teachplan_media m ON m.teachplan_id = two.id
         WHERE  one.parentid='0' and one.course_id = #{value}
         ORDER BY
             one.orderby,
             two.orderby
     </select>
+
 </mapper>

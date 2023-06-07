@@ -25,7 +25,7 @@ public interface CourseBaseInfoService {
      * @param courseId 课程id
      * @return 课程信息
      */
-    CourseBaseInfoDto getCourseBaseInfo(long courseId);
+    CourseBaseInfoDto getCourseBaseInfo(Long courseId);
 
     /**修改课程信息
      * @param companyId 机构id  要校验本机构只能修改本机构的课程

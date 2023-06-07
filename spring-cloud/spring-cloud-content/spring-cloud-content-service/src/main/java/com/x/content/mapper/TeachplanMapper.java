@@ -3,6 +3,7 @@ package com.x.content.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.x.content.model.dto.TeachplanDto;
 import com.x.content.model.po.Teachplan;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -22,6 +23,5 @@ public interface TeachplanMapper extends BaseMapper<Teachplan> {
      *	@author Mr.M
      * @date 2022/9/9 11:10
      */
-    List<TeachplanDto> selectTreeNodes(long courseId);
-
+    List<TeachplanDto> selectTreeNodes(Long courseId);
 }

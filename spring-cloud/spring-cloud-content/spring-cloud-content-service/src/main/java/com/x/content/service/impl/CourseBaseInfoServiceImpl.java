@@ -95,25 +95,24 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         return getCourseBaseInfo(courseId);
     }
 
-    public CourseBaseInfoDto getCourseBaseInfo(long courseId){
-
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
+        //课程基本信息
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        //课程营销信息
         CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
-
-        if(courseBase == null){
-            return null;
-        }
+        //组成要返回的数据
         CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
         BeanUtils.copyProperties(courseBase,courseBaseInfoDto);
-        if(courseMarket != null){
+        if(courseMarket!=null){
             BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
         }
 
-        //查询分类名称
-        CourseCategory courseCategoryBySt = courseCategoryMapper.selectById(courseBase.getSt());
-        courseBaseInfoDto.setStName(courseCategoryBySt.getName());
-        CourseCategory courseCategoryByMt = courseCategoryMapper.selectById(courseBase.getMt());
-        courseBaseInfoDto.setMtName(courseCategoryByMt.getName());
+        //向分类的名称查询出来
+        CourseCategory courseCategory = courseCategoryMapper.selectById(courseBase.getMt());//一级分类
+        courseBaseInfoDto.setMtName(courseCategory.getName());
+        CourseCategory courseCategory2 = courseCategoryMapper.selectById(courseBase.getSt());//二级分类
+        courseBaseInfoDto.setStName(courseCategory2.getName());
+
         return courseBaseInfoDto;
     }
 

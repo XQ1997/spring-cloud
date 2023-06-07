@@ -79,13 +79,12 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
     @Override
     public CoursePreviewDto getCoursePreviewInfo(Long courseId) {
-
+        System.out.println("课程id：" + courseId);
         //基本信息、营销信息
         CourseBaseInfoDto courseBaseInfo = courseBaseInfoService.getCourseBaseInfo(courseId);
 
         //教学计划
         List<TeachplanDto> teachplayTree = teachplanService.findTeachplanTree(courseId);
-
         CoursePreviewDto coursePreviewDto = new CoursePreviewDto();
         coursePreviewDto.setCourseBase(courseBaseInfo);
         coursePreviewDto.setTeachplans(teachplayTree);
@@ -201,7 +200,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
             //准备数据
             CoursePreviewDto coursePreviewInfo = getCoursePreviewInfo(courseId);
-
+            System.out.println(coursePreviewInfo);
             Map<String, Object> map = new HashMap<>();
             map.put("model", coursePreviewInfo);
 

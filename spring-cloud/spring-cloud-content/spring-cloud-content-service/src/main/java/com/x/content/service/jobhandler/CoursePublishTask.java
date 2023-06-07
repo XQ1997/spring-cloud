@@ -74,7 +74,6 @@ public class CoursePublishTask extends MessageProcessAbstract {
         //调用service创建索引
         coursePublishService.saveCourseIndex(courseId);
 
-
         //给该阶段任务打上完成标记
         this.getMqMessageService().completedStageTwo(id);//完成第二阶段的任务
     }
@@ -94,7 +93,10 @@ public class CoursePublishTask extends MessageProcessAbstract {
         //调用service将课程静态化
         File file = coursePublishService.generateCourseHtml(courseId);
         if(file == null){
+            System.out.println("文件为空");
             XueChengException.cast("课程静态化异常");
+        }else{
+            System.out.println("文件不为空");
         }
         //将静态页面上传到minIO
         coursePublishService.uploadCourseHtml(courseId,file);

@@ -1,11 +1,8 @@
 package com.x.content.feignclient;
 
 import com.x.content.feignclient.model.CourseIndex;
-import com.x.content.feignclient.model.SearchServiceClientFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @description 搜索服务远程调用接口
@@ -14,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
  * @version 1.0
  */
 @FeignClient(value = "search",fallbackFactory = SearchServiceClientFallbackFactory.class)
-@RequestMapping("/search")
+@RequestMapping("/search")//这里的路径是服务的contentpath
 public interface SearchServiceClient {
 
  @PostMapping("/index/course")
