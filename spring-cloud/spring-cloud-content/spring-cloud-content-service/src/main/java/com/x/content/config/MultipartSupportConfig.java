@@ -39,10 +39,11 @@ public class MultipartSupportConfig {
     public Encoder feignEncoder() {
         return new SpringFormEncoder(new SpringEncoder(messageConverters));
     }
-
+    //这时候最大的坑出现了，因为文件在本地是用File读取的，而调用远端接口需要MultipartFile，这时候就会有一个File转MultipartFile方法
     //将file转为Multipart
     public static MultipartFile getMultipartFile(File file) {
-        FileItem item = new DiskFileItemFactory().createItem("file", MediaType.MULTIPART_FORM_DATA_VALUE, true, file.getName());
+        //这里的fieldName要与feign调用的file同名  https://blog.csdn.net/carrot5032/article/details/112683205
+        FileItem item = new DiskFileItemFactory().createItem("filedata", MediaType.MULTIPART_FORM_DATA_VALUE, true, file.getName());
         try (FileInputStream inputStream = new FileInputStream(file);
              OutputStream outputStream = item.getOutputStream();) {
             IOUtils.copy(inputStream, outputStream);

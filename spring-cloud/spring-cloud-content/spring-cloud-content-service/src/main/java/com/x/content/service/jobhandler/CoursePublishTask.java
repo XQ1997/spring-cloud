@@ -97,10 +97,10 @@ public class CoursePublishTask extends MessageProcessAbstract {
             XueChengException.cast("课程静态化异常");
         }else{
             System.out.println("文件不为空");
+            //将静态页面上传到minIO
+            coursePublishService.uploadCourseHtml(courseId,file);
+            //给该阶段任务打上完成标记 保存第一阶段状态
+            this.getMqMessageService().completedStageOne(id);//完成第一阶段的任务
         }
-        //将静态页面上传到minIO
-        coursePublishService.uploadCourseHtml(courseId,file);
-        //给该阶段任务打上完成标记 保存第一阶段状态
-        this.getMqMessageService().completedStageOne(id);//完成第一阶段的任务
     }
 }

@@ -25,9 +25,8 @@ public class FeignUploadTest {
     public void testUpload() {
         File file = new File("D:\\develop\\test.html");
 
-        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
-        System.out.println(multipartFile);
-        String result = mediaServiceClient.upload(multipartFile, "course", "test.html");
+        MultipartFile filedata = MultipartSupportConfig.getMultipartFile(file);
+        String result = mediaServiceClient.upload(filedata, "course", "test.html");
         System.out.println(result);
         /*String result = mediaServiceClient.getGreeting();
         System.out.println(result);*/

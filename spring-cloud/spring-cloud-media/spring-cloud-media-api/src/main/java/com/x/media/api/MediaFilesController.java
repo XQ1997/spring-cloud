@@ -41,7 +41,7 @@ public class MediaFilesController {
                                       @RequestParam(value = "folder",required=false) String folder,
                                       @RequestParam(value= "objectName",required=false) String objectName) {
 
-        System.out.println("远程调用上传接口");
+        System.out.println("调用上传接口");
         Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         String contentType = filedata.getContentType();
