@@ -18,7 +18,7 @@
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring-boot-version>2.1.0.RELEASE</spring-boot-version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
-        <spring-cloud-alibaba.version>2.1.2.RELEASE</spring-cloud-alibaba.version>
+        <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
         <feign-form.version>3.8.0</feign-form.version>
         <org.projectlombok.version>1.18.8</org.projectlombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
