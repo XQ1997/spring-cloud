@@ -30,10 +30,10 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
             <version>3.0.3</version>
         </dependency>
-       <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>-->
+        </dependency>
 
         <!-- Spring Boot 的 Spring Web MVC 集成 -->
         <dependency>
@@ -60,15 +60,19 @@
         <!-- spring-security-oauth2 -->
         <!-- https://mvnrepository.com/artifact/org.springframework.security.oauth/spring-security-oauth2 -->
         <dependency>
-            <groupId>org.springframework.security.oauth</groupId>
-            <artifactId>spring-security-oauth2</artifactId>
-            <version>2.2.4.RELEASE</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.security.oauth.boot</groupId>
+                    <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-security</artifactId>
-            <version>2.2.4.RELEASE</version>
         </dependency>
 
 
