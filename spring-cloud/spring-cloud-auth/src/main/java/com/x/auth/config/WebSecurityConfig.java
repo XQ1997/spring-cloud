@@ -31,8 +31,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return super.authenticationManagerBean();
     }
 
-    //配置用户信息服务
-    @Bean
+    //配置用户信息服务 屏蔽 进行自定义
+ /*   @Bean
     public UserDetailsService userDetailsService() {
         //这里配置用户信息,这里暂时使用这种方式将用户存储在内存中
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
@@ -40,7 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         manager.createUser(User.withUsername("zhangsan").password("123").authorities("p1").build());
         manager.createUser(User.withUsername("lisi").password("456").authorities("p2").build());
         return manager;
-    }
+    }*/
 
     @Bean
     public PasswordEncoder passwordEncoder() {
