@@ -6,8 +6,10 @@ import com.x.ucenter.mapper.XcUserMapper;
 import com.x.ucenter.model.dto.AuthParamsDto;
 import com.x.ucenter.model.dto.XcUserExt;
 import com.x.ucenter.model.po.XcUser;
+import com.x.ucenter.service.AuthService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -26,6 +28,8 @@ public class UserServiceImpl implements UserDetailsService {
 
     @Autowired
     XcUserMapper userMapper;
+    @Autowired
+    ApplicationContext applicationContext;
 
     //传入的是AuthParamsDto中的json串
     @Override
@@ -38,26 +42,33 @@ public class UserServiceImpl implements UserDetailsService {
             log.info("认证请求不符合项目要求:{}",s);
             throw new RuntimeException("认证请求数据格式不对");
         }
-        //账号
-        String username1 = authParamsDto.getUsername();
+        //认证方式,
+        String authType = authParamsDto.getAuthType();
+        //从spring容器中拿具体的认证bean实例
+        AuthService authService = applicationContext.getBean(authType + "_authservice", AuthService.class);
+        //开始认证,认证成功拿到用户信息
+        XcUserExt xcUserExt = authService.execute(authParamsDto);
 
-        //从数据库查询用户信息
-        XcUser xcUser = userMapper.selectOne(new LambdaQueryWrapper<XcUser>().eq(XcUser::getUsername,username1));
-        if(xcUser == null){
-            //账号不存在
-            return null;
-        }
-        //账号
-        String username = xcUser.getUsername();
-        //获取正确的密码
-        String passwordDb = xcUser.getPassword();
-        //用户权限，如果不加报Cannot pass a null GrantedAuthority collection
-        String[] authorities = {"test"};
-        //将user转成json 将用户信息以json格式存放进jwt中
-        xcUser.setPassword(null);
-        String userJson = JSON.toJSONString(xcUser);
-        return User.withUsername(userJson).password(passwordDb).authorities(authorities).build();
+        return getUserPrincipal(xcUserExt);
     }
 
+    //根据XcUserExt对象构造一个UserDetails对象
+    /**
+     * @description 查询用户信息
+     * @param user  用户id，主键
+     * @return com.xuecheng.ucenter.model.po.XcUser 用户信息
+     * @author Mr.M
+     * @date 2022/9/29 12:19
+     */
+    public UserDetails getUserPrincipal(XcUserExt user){
 
+        //用户权限,如果不加报Cannot pass a null GrantedAuthority collection
+        String[] authorities= {"test"};
+        //原来存的是账号，现在扩展为用户的全部信息(密码不要放)
+        user.setPassword(null);
+        String jsonString = JSON.toJSONString(user);
+        UserDetails userDetails = User.withUsername(jsonString).password("").authorities(authorities).build();
+
+        return userDetails;
+    }
 }
