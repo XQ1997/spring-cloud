@@ -39,11 +39,13 @@ public class UserServiceImpl implements UserDetailsService {
         //账号
         String username = xcUser.getUsername();
         //获取正确的密码
-        String password_DB = xcUser.getPassword();
+        String passwordDb = xcUser.getPassword();
         //用户权限，如果不加报Cannot pass a null GrantedAuthority collection
         String[] authorities = {"test"};
-
-        return User.withUsername(username).password(password_DB).authorities(authorities).build();
+        //将user转成json 将用户信息以json格式存放进jwt中
+        xcUser.setPassword(null);
+        String userJson = JSON.toJSONString(xcUser);
+        return User.withUsername(userJson).password(passwordDb).authorities(authorities).build();
     }
 
 
