@@ -1,4 +1,4 @@
-package com.x.content.config;
+package com.x.config;
 
 import com.x.base.api.ResultCode;
 import org.springframework.context.annotation.Bean;
