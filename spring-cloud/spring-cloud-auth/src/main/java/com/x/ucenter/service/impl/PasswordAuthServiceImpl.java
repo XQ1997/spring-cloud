@@ -1,6 +1,7 @@
 package com.x.ucenter.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.x.ucenter.feignclient.CheckCodeClient;
 import com.x.ucenter.mapper.XcUserMapper;
 import com.x.ucenter.model.dto.AuthParamsDto;
 import com.x.ucenter.model.dto.XcUserExt;
@@ -28,10 +29,26 @@ public class PasswordAuthServiceImpl implements AuthService {
 
     @Autowired
     PasswordEncoder passwordEncoder;
+    @Autowired
+    CheckCodeClient checkCodeClient;
 
     //实现账号和密码认证
     @Override
     public XcUserExt execute(AuthParamsDto authParamsDto) {
+
+        //得到验证码
+        String checkcode = authParamsDto.getCheckcode();
+        String checkcodekey = authParamsDto.getCheckcodekey();
+        if(StringUtils.isBlank(checkcodekey) || StringUtils.isBlank(checkcode)){
+            throw new RuntimeException("验证码为空");
+
+        }
+
+        //校验验证码,请求验证码服务进行校验
+        Boolean result = checkCodeClient.verify(checkcodekey, checkcode);
+        if(result==null || !result){
+            throw new RuntimeException("验证码错误");
+        }
 
         //账号
         String username = authParamsDto.getUsername();
