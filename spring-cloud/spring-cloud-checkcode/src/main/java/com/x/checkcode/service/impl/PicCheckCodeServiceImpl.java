@@ -58,6 +58,8 @@ public class PicCheckCodeServiceImpl extends AbstractCheckCodeService implements
         CheckCodeResultDto checkCodeResultDto = new CheckCodeResultDto();
         checkCodeResultDto.setAliasing(pic);
         checkCodeResultDto.setKey(key);
+
+        //调用阿里云接口向手机发短信
         return checkCodeResultDto;
 
     }
