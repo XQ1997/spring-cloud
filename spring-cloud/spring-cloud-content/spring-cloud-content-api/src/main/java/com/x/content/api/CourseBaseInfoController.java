@@ -14,6 +14,7 @@ import com.x.content.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -30,6 +31,7 @@ public class CourseBaseInfoController {
     private final CourseBaseInfoService courseBaseInfoService;
     @ApiOperation("课程查询接口")
     @PostMapping("/course/list")
+    @PreAuthorize("hasAuthority('course_find_list')")
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody QueryCourseParamsDto queryCourseParams){
         return courseBaseInfoService.queryCourseBaseList(pageParams,queryCourseParams);
     }

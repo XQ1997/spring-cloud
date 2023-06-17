@@ -63,7 +63,7 @@ public class GlobalExceptionHandler {
 		return new RestErrorResponse(errorMsg.toString());
 	}
 
-
+	//权限不足
 	@ResponseBody
 	@ExceptionHandler(Exception.class)
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
