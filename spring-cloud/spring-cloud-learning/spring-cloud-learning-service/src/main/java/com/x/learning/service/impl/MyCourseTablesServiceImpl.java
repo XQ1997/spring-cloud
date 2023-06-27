@@ -61,18 +61,17 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
         String charge = coursepublish.getCharge();
 
         XcChooseCourse xcChooseCourse = null;
-        if(charge.equals("201001")){
+        if("201001".equals(charge)){
             //添加收费课程
             xcChooseCourse= myCourseTablesService.addChargeCoruse(userId,coursepublish);
         }else{
             //添加免费课程
             xcChooseCourse= myCourseTablesService.addFreeCoruse(userId,coursepublish);
         }
-
-
+        //构造返回对象
         XcChooseCourseDto xcChooseCourseDto = new XcChooseCourseDto();
         BeanUtils.copyProperties(xcChooseCourse,xcChooseCourseDto);
-        //获取学习资格
+        //获取该用户对该课程的学习资格
         XcCourseTablesDto xcCourseTablesDto = getLeanringStatus(userId, courseId);
         xcChooseCourseDto.setLearnStatus(xcCourseTablesDto.getLearnStatus());
         return xcChooseCourseDto;
@@ -91,7 +90,7 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
         XcCourseTables xcCourseTables = getXcCourseTables(userId, courseId);
         if(xcCourseTables==null){
             XcCourseTablesDto xcCourseTablesDto = new XcCourseTablesDto();
-            xcCourseTablesDto.setLearnStatus("702002");
+            xcCourseTablesDto.setLearnStatus("702002");//没有学习资格
             return xcCourseTablesDto;
         }
         XcCourseTablesDto xcCourseTablesDto = new XcCourseTablesDto();
