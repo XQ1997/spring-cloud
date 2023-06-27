@@ -284,4 +284,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             XueChengException.cast(CommonError.UNKOWN_ERROR);
         }
     }
+
+    public CoursePublish getCoursePublish(Long courseId){
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        return coursePublish ;
+    }
 }

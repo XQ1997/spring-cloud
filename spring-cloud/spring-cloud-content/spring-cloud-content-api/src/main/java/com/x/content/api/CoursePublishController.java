@@ -1,6 +1,7 @@
 package com.x.content.api;
 
 import com.x.content.model.dto.CoursePreviewDto;
+import com.x.content.model.po.CoursePublish;
 import com.x.content.service.CoursePublishService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,4 +51,12 @@ public class CoursePublishController {
         coursePublishService.publish(companyId,courseId);
     }
 
+    @ApiOperation("查询课程发布信息")
+    @ResponseBody
+    @GetMapping("/r/coursepublish/{courseId}")///r开头是不需要授权
+    public CoursePublish getCoursepublish(@PathVariable("courseId") Long courseId) {
+        //查询课程发布表的信息
+        CoursePublish coursePublish = coursePublishService.getCoursePublish(courseId);
+        return coursePublish;
+    }
 }
