@@ -36,6 +36,7 @@ public class PayTestController {
     @Value("${pay.alipay.ALIPAY_PUBLIC_KEY}")
     String ALIPAY_PUBLIC_KEY;
 
+  //下单接口
     @RequestMapping("/alipaytest")
     public void doPost(HttpServletRequest httpRequest,
                        HttpServletResponse httpResponse) throws ServletException, IOException, AlipayApiException {
@@ -44,6 +45,7 @@ public class PayTestController {
 //        alipayRequest.setReturnUrl("http://domain.com/CallBack/return_url.jsp");
         //告诉支付宝支付结果通知的地址
         alipayRequest.setNotifyUrl("http://tjxt-user-t.itheima.net/xuecheng/orders/paynotify");//在公共参数中设置回跳和通知地址
+        //订单编号可以随便改 测试环境下
         alipayRequest.setBizContent("{" +
                 "    \"out_trade_no\":\"20220320010101016\"," +
                 "    \"total_amount\":0.1," +
@@ -56,6 +58,7 @@ public class PayTestController {
         httpResponse.getWriter().flush();
     }
 
+    //接收支付结果
     @RequestMapping("/paynotify")
     public void paynotify(HttpServletRequest request,HttpServletResponse response) throws AlipayApiException, IOException {
 

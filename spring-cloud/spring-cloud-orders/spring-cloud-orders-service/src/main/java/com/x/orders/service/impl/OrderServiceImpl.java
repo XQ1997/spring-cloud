@@ -2,10 +2,10 @@ package com.x.orders.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.x.base.exception.XueChengException;
+import com.x.base.util.IdWorkerUtils;
+import com.x.base.util.QRCodeUtil;
 import com.x.orders.mapper.XcPayRecordMapper;
-import com.xuecheng.base.exception.XueChengPlusException;
-import com.xuecheng.base.utils.IdWorkerUtils;
-import com.xuecheng.base.utils.QRCodeUtil;
 import com.x.orders.mapper.XcOrdersGoodsMapper;
 import com.x.orders.mapper.XcOrdersMapper;
 import com.x.orders.model.dto.AddOrderDto;
@@ -58,7 +58,7 @@ public class OrderServiceImpl implements OrderService {
             //url要可以被模拟器访问到，url为下单接口(稍后定义)
             qrCode = new QRCodeUtil().createQRCode("http://192.168.101.1/api/orders/requestpay?payNo="+payRecord.getPayNo(), 200, 200);
         } catch (IOException e) {
-            XueChengPlusException.cast("生成二维码出错");
+            XueChengException.cast("生成二维码出错");
         }
         //封装要返回的数据
         PayRecordDto payRecordDto = new PayRecordDto();
@@ -67,6 +67,12 @@ public class OrderServiceImpl implements OrderService {
         payRecordDto.setQrcode(qrCode);
 
         return payRecordDto;
+    }
+
+    @Override
+    public XcPayRecord getpayRecordByPayno(String payNo) {
+        LambdaQueryWrapper<XcPayRecord> wrapper = new LambdaQueryWrapper<XcPayRecord>().eq(XcPayRecord::getPayNo,payNo);
+        return payRecordMapper.selectOne(wrapper);
     }
 
     //添加支付记录

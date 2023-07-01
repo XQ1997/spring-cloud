@@ -32,6 +32,7 @@ public class AliPayTest {
     //签名算法类型
     static String sign_type = "RSA2";
 
+    //测试主动请求支付宝来查询支付结果
     @Test
     public void queryPayResult() throws AlipayApiException {
         AlipayClient client = new DefaultAlipayClient(AlipayConfig.URL, APP_ID, APP_PRIVATE_KEY, AlipayConfig.FORMAT, AlipayConfig.CHARSET, ALIPAY_PUBLIC_KEY, AlipayConfig.SIGNTYPE);//获得初始化的AlipayClient

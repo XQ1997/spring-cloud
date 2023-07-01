@@ -2,6 +2,7 @@ package com.x.orders.service;
 
 import com.x.orders.model.dto.AddOrderDto;
 import com.x.orders.model.dto.PayRecordDto;
+import com.x.orders.model.po.XcPayRecord;
 
 /**
  * @author Mr.M
@@ -19,4 +20,10 @@ public interface OrderService {
      * @date 2022/10/4 11:02
      */
     public PayRecordDto createOrder(String userId, AddOrderDto addOrderDto);
+
+    /**查询支付交易记录
+     * @param payNo  交易记录号
+     * @return
+     */
+    public XcPayRecord getpayRecordByPayno(String payNo);
 }
