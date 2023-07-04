@@ -2,6 +2,7 @@ package com.x.orders.service;
 
 import com.x.orders.model.dto.AddOrderDto;
 import com.x.orders.model.dto.PayRecordDto;
+import com.x.orders.model.dto.PayStatusDto;
 import com.x.orders.model.po.XcPayRecord;
 
 /**
@@ -26,4 +27,13 @@ public interface OrderService {
      * @return
      */
     public XcPayRecord getpayRecordByPayno(String payNo);
+
+    /**
+     * @description 保存支付宝支付结果
+     * @param payStatusDto  支付结果信息
+     * @return void
+     * @author Mr.M
+     * @date 2022/10/4 16:52
+     */
+    public void saveAliPayStatus(PayStatusDto payStatusDto);
 }

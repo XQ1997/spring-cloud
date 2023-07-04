@@ -5,6 +5,8 @@ import com.x.learning.model.dto.MyCourseTableItemDto;
 import com.x.learning.model.dto.MyCourseTableParams;
 import com.x.learning.model.dto.XcChooseCourseDto;
 import com.x.learning.model.dto.XcCourseTablesDto;
+import com.x.learning.model.po.XcChooseCourse;
+import com.x.learning.model.po.XcCourseTables;
 
 /**
  * @description 我的课程表service接口
@@ -29,5 +31,14 @@ public interface MyCourseTablesService {
     public boolean saveChooseCourseStauts(String choosecourseId);
 
     public PageResult<MyCourseTableItemDto> mycourestabls(MyCourseTableParams params);
+
+    /**
+     * @description 添加我的课程表
+     * @param xcChooseCourse
+     * @return com.xuecheng.learning.model.po.XcCourseTables
+     * @author Mr.M
+     * @date 2022/10/26 11:35
+     */
+    public XcCourseTables addCourseTabls(XcChooseCourse xcChooseCourse);
 
 }
