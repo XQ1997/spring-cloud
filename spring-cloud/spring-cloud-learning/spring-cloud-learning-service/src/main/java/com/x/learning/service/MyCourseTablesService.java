@@ -30,7 +30,7 @@ public interface MyCourseTablesService {
 
     public boolean saveChooseCourseStauts(String choosecourseId);
 
-    public PageResult<MyCourseTableItemDto> mycourestabls(MyCourseTableParams params);
+    public PageResult<XcCourseTables> mycourestabls(MyCourseTableParams params);
 
     /**
      * @description 添加我的课程表

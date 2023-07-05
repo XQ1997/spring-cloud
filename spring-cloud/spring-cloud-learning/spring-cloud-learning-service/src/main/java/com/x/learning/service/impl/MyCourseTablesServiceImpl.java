@@ -1,6 +1,7 @@
 package com.x.learning.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.x.base.exception.CommonError;
 import com.x.base.exception.XueChengException;
 import com.x.base.model.PageResult;
@@ -45,7 +46,6 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
 
     @Autowired
     MyCourseTablesServiceImpl myCourseTablesService;
-
     @Override
     public XcChooseCourseDto addChooseCourse(String userId,Long courseId) {
         //查询课程信息
@@ -268,9 +268,10 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
         return xcChooseCourse;
     }
 
-    public PageResult<MyCourseTableItemDto> mycourestabls(MyCourseTableParams params){
-
+    /*public PageResult<MyCourseTableItemDto> mycourestabls(MyCourseTableParams params){
+        //页码
         int page = params.getPage();
+        //每页记录数
         int size = params.getSize();
         int startIndex = (page-1)*size;
         params.setStartIndex(startIndex);
@@ -286,6 +287,28 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
         pageResult.setPageSize(size);
         return pageResult;
 
+    }*/
+
+    public PageResult<XcCourseTables> mycourestabls( MyCourseTableParams params){
+        //页码
+        long pageNo = params.getPage();
+        //每页记录数,固定为4
+        long pageSize = 4;
+        //分页条件
+        Page<XcCourseTables> page = new Page<>(pageNo, pageSize);
+        //根据用户id查询
+        String userId = params.getUserId();
+        LambdaQueryWrapper<XcCourseTables> lambdaQueryWrapper = new LambdaQueryWrapper<XcCourseTables>().eq(XcCourseTables::getUserId, userId);
+
+        //分页查询
+        Page<XcCourseTables> pageResult = xcCourseTablesMapper.selectPage(page, lambdaQueryWrapper);
+        List<XcCourseTables> records = pageResult.getRecords();
+        //记录总数
+        long total = pageResult.getTotal();
+        PageResult<XcCourseTables> courseTablesResult = new PageResult<>(records, total, pageNo, pageSize);
+        return courseTablesResult;
+
     }
+
 
 }

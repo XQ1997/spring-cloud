@@ -6,6 +6,7 @@ import com.x.learning.model.dto.MyCourseTableItemDto;
 import com.x.learning.model.dto.MyCourseTableParams;
 import com.x.learning.model.dto.XcChooseCourseDto;
 import com.x.learning.model.dto.XcCourseTablesDto;
+import com.x.learning.model.po.XcCourseTables;
 import com.x.learning.service.MyCourseTablesService;
 import com.x.learning.util.SecurityUtil;
 import io.swagger.annotations.Api;
@@ -58,7 +59,7 @@ public class MyCourseTablesController {
 
     @ApiOperation("我的课程表")
     @GetMapping("/mycoursetable")
-    public PageResult<MyCourseTableItemDto> mycoursetable(MyCourseTableParams params) {
+    public PageResult<XcCourseTables> mycoursetable(MyCourseTableParams params) {
         //登录用户
         SecurityUtil.XcUser user = SecurityUtil.getUser();
         if(user == null){
@@ -67,10 +68,5 @@ public class MyCourseTablesController {
         String userId = user.getId();
         params.setUserId(userId);
         return  myCourseTablesService.mycourestabls(params);
-
     }
-
-
-
-
 }
