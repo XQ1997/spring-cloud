@@ -67,4 +67,7 @@ public interface CoursePublishService {
      * @date 2022/10/25 9:11
      */
     public CoursePublish getCoursePublish(Long courseId);
+
+    //进行优化的方法
+    public CoursePublish getCoursePublishCache(Long courseId);
 }
