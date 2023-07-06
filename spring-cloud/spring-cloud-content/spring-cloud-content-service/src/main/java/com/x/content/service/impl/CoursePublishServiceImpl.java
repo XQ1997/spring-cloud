@@ -28,6 +28,8 @@ import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -79,6 +81,8 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     MediaServiceClient mediaServiceClient;
     @Autowired
     RedisTemplate redisTemplate;
+    @Autowired
+    RedissonClient redissonClient;
 
 
     @Override
@@ -294,7 +298,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         return coursePublish ;
     }
 
-    //从缓存中查询课程
+    //从缓存中查询课程 增加分布式锁中获取数据 版本3
     public CoursePublish getCoursePublishCache(Long courseId){
         //先从缓存中查询
         String jsonString = (String) redisTemplate.opsForValue().get("course:" + courseId);
@@ -303,15 +307,81 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             //将json转成对象返回
             CoursePublish coursePublish = JSON.parseObject(jsonString, CoursePublish.class);
             return coursePublish;
-        }else{ 
+        }else{
+            //使用redission获取锁
+            RLock lock = redissonClient.getLock("coursequery:" + courseId);
+            //获取分布式锁
+            lock.lock();
+            try {
+                //再次从缓存中查询一次
+                jsonString = (String) redisTemplate.opsForValue().get("course:" + courseId);
+                if (StringUtils.isNotEmpty(jsonString)) {
+                    System.out.println("========从缓存中查询===========");
+                    //将json转成对象返回
+                    CoursePublish coursePublish = JSON.parseObject(jsonString, CoursePublish.class);
+                    return coursePublish;
+                }
+                System.out.println("从数据库查询...");
+                //如果缓存中没有，要从数据库查询
+                CoursePublish coursePublish = coursePublishMapper.selectById(courseId);//解决缓存穿透，查询一个不存在的数据仍然将null存入缓存
+                //将从数据库查询到的数据存入缓存
+                redisTemplate.opsForValue().set("course:" + courseId, JSON.toJSONString(coursePublish), 300, TimeUnit.SECONDS);//增加一个短暂的过期时间
+
+                return coursePublish;
+            }finally {
+                //释放锁
+                lock.unlock();
+            }
+        }
+    }
+
+    //从缓存中查询课程 解决缓存击穿 版本2
+    public CoursePublish getCoursePublishCache2(Long courseId){
+        //先从缓存中查询
+        String jsonString = (String) redisTemplate.opsForValue().get("course:" + courseId);
+        if(StringUtils.isNotEmpty(jsonString)){
+            System.out.println("========从缓存中查询===========");
+            //将json转成对象返回
+            CoursePublish coursePublish = JSON.parseObject(jsonString, CoursePublish.class);
+            return coursePublish;
+        }else{
+            synchronized (this) {
+                //再次从缓存中查询一次
+                jsonString = (String) redisTemplate.opsForValue().get("course:" + courseId);
+                if(StringUtils.isNotEmpty(jsonString)) {
+                    System.out.println("========从缓存中查询===========");
+                    //将json转成对象返回
+                    CoursePublish coursePublish = JSON.parseObject(jsonString, CoursePublish.class);
+                    return coursePublish;
+                }
+                System.out.println("从数据库查询...");
+                //如果缓存中没有，要从数据库查询
+                CoursePublish coursePublish = coursePublishMapper.selectById(courseId);//解决缓存穿透，查询一个不存在的数据仍然将null存入缓存
+                //将从数据库查询到的数据存入缓存
+                redisTemplate.opsForValue().set("course:" + courseId, JSON.toJSONString(coursePublish), 300, TimeUnit.SECONDS);//增加一个短暂的过期时间
+
+                return coursePublish;
+            }
+        }
+    }
+
+    //添加了redis缓存，解决了缓存穿透 版本1
+    public CoursePublish getCoursePublishCache1(Long courseId){
+        //先从缓存中查询
+        String jsonString = (String) redisTemplate.opsForValue().get("course:" + courseId);
+        if(StringUtils.isNotEmpty(jsonString)){
+            System.out.println("========从缓存中查询===========");
+            //将json转成对象返回
+            CoursePublish coursePublish = JSON.parseObject(jsonString, CoursePublish.class);
+            return coursePublish;
+        }else{
             System.out.println("从数据库查询...");
             //如果缓存中没有，要从数据库查询
-            CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+            CoursePublish coursePublish = coursePublishMapper.selectById(courseId);//解决缓存穿透，查询一个不存在的数据仍然将null存入缓存
             //将从数据库查询到的数据存入缓存
-            redisTemplate.opsForValue().set("course:" + courseId,JSON.toJSONString(coursePublish),300, TimeUnit.SECONDS);
+            redisTemplate.opsForValue().set("course:" + courseId,JSON.toJSONString(coursePublish),300, TimeUnit.SECONDS);//增加一个短暂的过期时间
 
             return coursePublish ;
-            }
         }
     }
 }
